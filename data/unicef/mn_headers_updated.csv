@@ -1,0 +1,225 @@
+Name,Label,Question
+HH1,Cluster number,
+HH2,Household number,
+LN,Line number,
+MWM1,Cluster number,
+MWM2,Household number,
+MWM4,Man's line number,
+MWM5,Interviewer number,
+MWM6D,Day of interview,
+MWM6M,Month of interview,
+MWM6Y,Year of interview,
+MWM7,Result of man's interview,
+MWM8,Field editor,
+MWM9,Data entry clerk,
+MWM10H,Start of interview - Hour,
+MWM10M,Start of interview - Minutes,
+MWM11H,End of interview - Hour,
+MWM11M,End of interview - Minutes,
+MWB1M,Month of birth of man,In what month and year were you born?
+MWB1Y,Year of birth of man,In what month and year were you born?
+MWB2,Age of man,How old are you?
+MWB3,Ever attended school,Have you ever attended school or a preschool institution?
+MWB4,Highest level of school attended,What is the highest education level you attended?
+MWB5,Highest grade completed at that level,What is the highest grade/year you completed at that level?
+MWB7,Can read part of the sentence,"Now I would like you to read this sentence to me.
+Show the sentence on the card to the respondent. If the respondent cannot read the whole sentence, probe: Can you read part of the sentence to me?"
+MMT2,Frequency of reading newspaper or magazine,"How often do you read a newspaper or magazine: Almost every day, at least once a week, less than once a week or not at all?"
+MMT3,Frequency of listening to the radio,"Do you listen to the radio almost every day, at least once a week, less than once a week or not at all?"
+MMT4,Frequency of watching TV,"How often do you watch television: Would you say that you watch TV almost every day, at least once a week, less than once a week or not at all?"
+MMT6,Ever used a computer,Have you ever used a computer?
+MMT7,Computer usage in the last 12 months,"In the last 12 months, have you used a computer from any location?"
+MMT8,Frequency of computer usage in the last month,"During the last month, how often did you use a computer: almost every day, at least once a week, less than once a week or not at all?"
+MMT9,Ever used internet,Have you ever used the internet?
+MMT10,Internet usage in the last 12 months,"In the last 12 months, have you used the internet?"
+MMT11,Frequency of Internet usage in the past month,"During the last month, how often did you use the internet: almost every day, at least once a week, less than once a week or not at all?"
+MMT12,Ever used a mobile or non-mobile phone,
+MMT13,Mobile or non-mobile phone usage in the last 12 months,
+MMT14,Frequency of mobile or non-mobile usage in the past month,
+MCM1,Ever fathered any children with any women,"Now i would like to ask about all the children you have had in your lifetime. I am interested in all of the children that are biologically yours, even if they are not legally yours or do not have your last name.
+Have you had any biological children with any woman?"
+MCM3,Age when first child was born,How old were you when your (first) child was born?
+MCM4,Any sons or daughters living with you,Do you have any biological sons or daughters who are now living with you?
+MCM5A,Sons living with you,How many sons live with you?
+MCM5B,Daughters living with you,How many daughters live with you?
+MCM6,Any sons or daughters not living with you,Do you have any biological sons or daughters who are alive but do not live with you?
+MCM7A,Sons living elsewhere,How many sons are alive but do not live with you?
+MCM7B,Daughters living elsewhere,How many daughters are alive but do not live with you?
+MCM8,Ever had child who later died,Have you had a biological son or daughter who was born alive but later died?
+MCM9A,Boys dead,How many boys have died?
+MCM9B,Girls dead,How many girls have died?
+MCM10,Children ever born,
+MCM11A,Same biological mother,"Did all the biological children you have, have the same biological mother?"
+MCM11B,Number of women respondent fathered children with,"In all, how many women have you had biological children with?"
+MCM12D,Day of last birth,"Of these (total number in MCM10) biological children, when was the last one born (even if he or she has died)?"
+MCM12M,Month of last birth,"Of these (total number in MCM10) biological children, when was the last one born (even if he or she has died)?"
+MCM12Y,Year of last birth,"Of these (total number in MCM10) biological children, when was the last one born (even if he or she has died)?"
+MDV1A,If she goes out with out telling husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [A] If she goes out without telling him?"
+MDV1B,If she neglects the children: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [B] If she neglects the children?"
+MDV1C,If she argues with husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [C] If she argues with him?"
+MDV1D,If she refuses sex with husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [D] If she refuses to have sex with him?"
+MDV1E,If she burns the food: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [E] If she burns the food?"
+MDV1F,Is she commits infidelity: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: [F] If she commits infedelity?"
+MMA1,Currently married or living with a man,Are you currently married or living together with a woman as if married?
+MMA2,Age of wife/partner,How old is your wife/partner?
+MMA3,Haveing other wives or liveing with other women as if you are married,Do you have other wives or do you live with other women as if married?
+MMA4,How many other wives / partners living with you,How many other wives or live-in partners do you have?
+MMA5,Ever married or lived with a woman,Have you ever been married or lived together with a woman as if married?
+MMA6,Marital status,"What is your marital status now: are you widowed, divorced or separated?"
+MMA7,Married or lived with a woman once or more than once,Have you been married or lived with a woman only once or more than once?
+MMA8M,Month of first union,In what month and year did you first marry or start living with a woman as if married?
+MMA8Y,Year of first union,In what month and year did you first marry or start living with a woman as if married?
+MMA9,Age at first union,How old were you when you started living with your first wife/partner?
+MSB1,Age at first sexual intercourse,"Now i would like to ask you some questions about sexual activity in order to get a better understanding of some important life issues.
+The information you provide will remain strictly confidential. How old were you when you had sexual intercourse for the very first time?"
+MSB2,Condom used during first sexual intercourse,"The first time you had sexual intercourse, was a condom used?"
+MSB3U,Time since last sexual intercourse (unit),"When was the last time you had sexual intercourse?
+Record 'years ago' only if last intercourse was one or more years ago. If 12 months or more the answer must be recorded in years."
+MSB3N,Time since last sexual intercourse (number),"When was the last time you had sexual intercourse?
+Record 'years ago' only if last intercourse was one or more years ago. If 12 months or more the answer must be recorded in years."
+MSB4,Condom used at last sexual intercourse,"The last time you had sexual intercourse, was a condom used?"
+MSB5,Relationship to last sexual partner,What was your relationship to the person you last had sexual intercourse with?
+MSB7,Age of last sexual partner,How old is this person?
+MSB8,Sex with any other person in the last 12 month,Have you had sexual intercourse with any other person in the last 12 months?
+MSB9,Condom used with prior sexual partner,"The last time you had sexual intercourse with this other person, was a condom used?"
+MSB10,Relationship to prior sexual partner,What was your relationship to this person?
+MSB12,Age of prior sexual partner,How old is this person?
+MSB13,Sex with any other man in the last 12 months,"In the last 12 months, have you had sexual intercourse with any other person, other than these two persons?"
+MSB14,Number of sex partners in last 12 months,"In total, with how many different people have you had sexual intercourse in the last 12 months?"
+MSB15,Number of sex partners in lifetime,"In total, with how many different people have you had sexual intercourse in your lifetime?"
+MHA1,Ever heard of AIDS,"Now i would like to talk with you about something else.
+Have you ever heard of the HIV virus or an illness called AIDS (or SIDA)?"
+MHA2,Can avoid AIDS virus by having one uninfected partner,Can people reduce their chance of getting the virus that causes AIDS by having just one uninfected sex partner who has no other sex partners?
+MHA3,Can get AIDS virus through supernatural means,Can people get the virus that causes AIDS because of witchcraft or other supernatural means?
+MHA4,Can avoid AIDS virus by using a condom correctly every time,Can people reduce their chance of getting the virus that causes AIDS by using a condom every time they have sex?
+MHA5,Can get AIDS virus from mosquito bites,Can people get the virus that causes AIDS from mosquito bites?
+MHA6,Can get AIDS virus by sharing food with a person who has AIDS,Can people get the virus that causes AIDS by sharing food with a person who has AIDS?
+MHA7,Healthy-looking person may have AIDS virus,Is it possible for a healthy-looking person to have the virus that causes AIDS?
+MHA8A,AIDS virus from mother to child during pregnancy,Can the virus that causes AIDS be transmitted from a mother to her baby: [A] During pregnancy?
+MHA8B,AIDS virus from mother to child during delivery,Can the virus that causes AIDS be transmitted from a mother to her baby: [B] During delivery?
+MHA8C,AIDS virus from mother to child through breastfeeding,Can the virus that causes AIDS be transmitted from a mother to her baby: [C] By breastfeeding?
+MHA9,Should female teacher with AIDS virus be allowed to teach in school,"In your opinion, if a female teacher has the virus that causes AIDS but is not sick, should she be allowed to continue teaching in school?"
+MHA10,Would buy fresh vegetables from shopkeeper with AIDS virus,Would you buy fresh vegetables from a shopkeeper or salesperson if you knew that this person had the virus that causes AIDS?
+MHA11,"If HH member became infected with AIDS virus, would want it to remain a secret","If a member of your family got infected with the virus that causes AIDS, would you want it to remain a secret?"
+MHA12,Willing to care for person with AIDS in household,"If a member of your family became sick with AIDS, would you be willing to care for him or her in your own household?"
+MHA24,Ever been tested for AIDS virus,"I don’t want to know the results, but have you ever been tested to see if you have the virus that causes AIDS?"
+MHA25,Most recent time of testing for AIDS virus,When was the most recent time you were tested?
+MHA26,Received results of AIDS virus test,"I don’t want to know the results, but did you get the results of this test?"
+MHA27,Know a place to get AIDS virus test,Do you know of a place where people can go to get tested for the virus that causes AIDS?
+MTA1,Ever tried cigarette smoking,"Have you ever tried smoking cigarettes, even taking one or two puffs?"
+MTA2,Age when cigarette was smoked for the first time,How old were you when you smoked an entire cigarette for the first time?
+MTA3,Currently smoking cigarettes,Do you currently smoke cigarettes?
+MTA4,Number of cigarettes smoked in the last 24 hours,How many cigarettes did you smoke during the last month?
+MTA5,Number of days when cigarettes were smoked in past month,"During the last month, on how many days did you smoke cigarettes?"
+MTA6,Ever tried any smoked tobacco products other than cigarettes,"Have you ever tried any smoked tobacco products other than cigarettes, such as cigars (e.g. Cuban), a pipe or waterpipe (narghile/hookah)?"
+MTA7,Used any smoked tobacco products during the last month,"During the last month, did you use any smoked tobacco products?"
+MTA8A,Type of smoked tobacco product: Cigars,What type of smoked tobacco product did you use or smoke during the last month?
+MTA8B,Type of smoked tobacco product: Water pipe,What type of smoked tobacco product did you use or smoke during the last month?
+MTA8C,Type of smoked tobacco product: Cigarillos,What type of smoked tobacco product did you use or smoke during the last month?
+MTA8D,Type of smoked tobacco product: Pipe,What type of smoked tobacco product did you use or smoke during the last month?
+MTA8E,Type of smoked tomacco product: Rolled tobacco,
+MTA8X,Type of smoked tobacco product: Other,What type of smoked tobacco product did you use or smoke during the last month?
+MTA9,Number of days when tobacco products where smoked in past month,On how many days did you use smoked tobacco products during the last month?
+MTA10,Ever tried any form of smokeless tobacco products,"Have you ever tried any form of smokeless tobacco products, such as chewing tobacco, tobacco for sniffing (snuff) or dipping tobacco?"
+MTA11,Used any smokeless tobacco products during the last month,Did you use any smokeless tobacco products during the last month?
+MTA12A,Type of smokeless tobacco product used: Chewing tobacco,What type of smokeless tobacco product did you use during the last month?
+MTA12B,Type of smokeless tobacco product used: Snuff,What type of smokeless tobacco product did you use during the last month?
+MTA12C,Type of smokeless tobacco product used: Dip,What type of smokeless tobacco product did you use during the last month?
+MTA12X,Type of smokeless tobacco product used: Other,What type of smokeless tobacco product did you use during the last month?
+MTA13,Number of days when smokeless tobacco products where used in past month,On how many days did you use smokeless tobacco products during the last month?
+MTA14,Ever drunk alcohol,"Now i would like to ask you some questions about drinking alcohol.
+Have you ever drunk alcohol?"
+MTA15,Age when alcohol was used for the first time,"We count one drink of alcohol as one can or bottle of beer, one glass of wine, or one shot of strong drink.
+How old were you when you had your first drink of alcohol, not counting a few sips?"
+MTA16,Number of days when at least one drink of alcohol was used in past month,"During the last month, on how many days did you have at least one drink of alcohol?"
+MTA17,Number of drinks usually consumed,"In the last month, on those days that you drank alcohol, what is the number of drinks did you usually had?"
+MLS2,Estimation of overall happiness,"I would like to ask you some simple questions on happiness and satisfaction.
+First, taking all things together, would you say you are very happy, happy, neither happy nor unhappy, unhappy or very unhappy?
+You can also look at these pictures to help you respond."
+MLS3,Satisfaction with family life,"Now i will ask you questions about your level of satisfaction in different areas of your life.
+In each case, we have five possible responses: Please tell me, for each question, whether you are very satisfied, satisfied, neither satisfied nor unsatisfied, unsatisfied or very unsatisfied.
+Again, you can look at these pictures to help you respond.
+How satisfied are you with your family life?"
+MLS4,Satisfaction with friendships,How satisfied are you with your friendships?
+MLS5,School attendance during the current school year,"During the current (2011-2012) school/academic year, did you attend school/ university at any time?"
+MLS6,Satisfaction with school,How satisfied are you with your school/university?
+MLS7,Satisfaction with current job,How satisfied are you with your current job?
+MLS8,Satisfaction with health,How satisfied are you with your health?
+MLS9,Satisfaction with current residence,How satisfied are you with where you live?
+MLS10,Satisfaction with treatment by other people,How satisfied are you with how people around you generally treat you?
+MLS11,Satisfaction with appearance,How satisfied are you with the way you look?
+MLS12,Satisfaction with life overall,"How satisfied are you with your life, overall?"
+MLS13,Satisfaction with current income,How satisfied are you with your current income?
+MLS14,Life satisfaction in comparison with last year,"Compared to this time last year, would you say that your life has improved, stayed more or less the same, or worsened, overall?"
+MLS15,Life satisfaction expectation one year from now,"And in one year from now, do you expect that your life will be better, will be more or less the same, or will be worse, overall?"
+MHE1,Has a health card,Do you have a health booklet?
+MHE2,Has health insurance,Do you have health insurance?
+MHE3,Use of health care services at the health centre,Do you use health care services at the health centre?
+MHE4,Provided with health care services at the nearest health centre free of charge,Are you provided with health care services at the nearest health centre free of charge?
+MHE5,Use of health services at the hospital,Do you use health care services at the hospital?
+MHE6,Provided with health care services at the nearest hospital free of charge,Are you provided with health care services at the nearest hospital free of charge?
+MHE7,Use of emergency health care services,Do you use emergency health care services?
+MHE8,Provided with emergency health care services free of charge,Are you provided with emergency health care services free of charge?
+MHE9,Paying for all necessary health care services and medication,Do you pay all necessary health care services and medication?
+MHE10,Paying for only vital/urgently needed health care services and medication,Do you pay only vital/urgently needed health care services and medications?
+MHE11,Can afford the medication without one-off financial aid,Can you afford medications without one-off financial assistance?
+DU1,Cluster number,
+DU2,Household number,
+DU3,Interviewer number,
+DU4D,Day of interview,
+DU4M,Month of interview,
+DU4Y,Year of interview,
+DU6,Woman's line number,
+DU7,Man's line number,
+DU9,Result of interview,
+DU10,Result of interview,
+DU11,Field editor,
+DU12,Data entry clerk,
+DU13,Have you ever used any drugs (narcotic substances) in your life?,Have you ever used any drugs (narcotic substances) in your life?
+DU14A,Cannabis (marijuana and/or hashish),When did you last take any of the following substances/drugs? [a] cannabis (marijuana and/or hashish)
+DU14B,Ecstasy,When did you last take any of the following substances/drugs? [b] ecstasy
+DU14C,Amphetamine and/or methamphetamine,"When did you last take any of the following substances/drugs? [c] amphetamine and/or methamphetamine, most commonly referred to as “speed”"
+DU14D,Cocaine or crack,When did you last take any of the following substances/drugs? [d] cocaine or crack
+DU14E,Heroin,When did you last take any of the following substances/drugs? [e] Heroin
+DU14F,LSD (trip / acid),When did you last take any of the following substances/drugs? [f] LSD (trip / acid)
+DU14G,Magic mushrooms,When did you last take any of the following substances/drugs? [g] magic mushrooms
+DU14H,Inhalants (e.g. glue),"When did you last take any of the following substances/drugs? [h] substances which are inhaled, such as glue and other industrial products which are deliberately inhaled"
+HH6,Area,
+HH7,Region,
+HH7A,Region,
+MWDOI,Date of interview women (CMC),
+MWDOB,Date of birth of woman (CMC),
+MWAGE,Age,
+MWDOM,Date of marriage (CMC),
+MWAGEM,Age at first marriage/union,
+MWDOBFC,Date of birth of first child (CMC),
+MWDOBLC,Date of birth of last child (CMC),
+MMSTATUS,Marital/Union status,
+MCEB,Children ever born,
+MCSURV,Children surviving,
+MCDEAD,Children dead,
+MMC1,Respondent is circumcised,
+MMC2,Age at circumcision,
+MMC3,Person performing circumcision,
+MMC4,Place of circumcision,
+TNLN,Net number,
+TN4,Mosquito net observed,
+TN5,Brand/type of observed net,
+TN6,Months ago net obtained,How many months ago did your household get the mosquito net?
+TN8,Net treated with an insecticide when obtained,"When you got the net, was it already treated with an insecticide to kill or repel mosquitoes?"
+TN9,Net soaked or dipped since obtained,"Since you got the net, was it ever soaked or dipped in a liquid to kill or repel mosquitoes?"
+TN10,Months ago net soaked or dipped,How many months ago was the net last soaked or dipped?
+TN11,Persons slept under mosquito net last night,Did anyone sleep under this mosquito net last night?
+TN12_1,Person 1 who slept under net,Who slept under this mosquito net last night?
+TN12_2,Person 2 who slept under net,Who slept under this mosquito net last night?
+TN12_3,Person 3 who slept under net,Who slept under this mosquito net last night?
+TN12_4,Person 4 who slept under net,Who slept under this mosquito net last night?
+TN2,Number of mosquito nets,How many mosquito nets does your household have?
+packet,Packet number,
+mmelevel,Education,
+language,Language of household head,
+mmweight,Men's sample weight,
+wscore,Wealth index score,
+windex5,Wealth index quintiles,
+PSU,Primary sampling unit,
+strata,Stratum,

@@ -1,0 +1,407 @@
+Name,Label,Question
+HH1,Cluster number,
+HH2,Household number,
+LN,Line number,
+WM1,Cluster number,
+WM2,Household number,
+WM4,Woman's line number,
+WM5,Interviewer number,
+WM6D,Day of interview,
+WM6M,Month of interview,
+WM6Y,Year of interview,
+WM7,Result of woman's interview,
+WM8,Field editor,
+WM9,Data entry clerk,
+WM10H,Start of interview - Hour,
+WM10M,Start of interview - Minutes,
+WM11H,End of interview - Hour,
+WM11M,End of interview - Minutes,
+WB1M,Month of birth of woman,In what month and year were you born?
+WB1Y,Year of birth of woman,In what month and year were you born?
+WB2,Age of woman,How old are you?
+WB3,Ever attended school,Have you ever attended school or a preschool institution?
+WB4,Highest level of school attended,What is the highest education level you attended?
+WB5,Highest grade completed at that level,What is the highest grade/year you completed at that level?
+WB7,Can read part of the sentence,Now I would like you to read this sentence to me.
+MT2,Frequency of reading newspaper or magazine,"How often do you read newspapers or magazines:
+Almost every day, at least once a week, less than once a week or not at all?"
+MT3,Frequency of listening to the radio,"Do you listen to the radio almost every day, at least once a week, less than once a week or not at all?"
+MT4,Frequency of watching TV,"How often do you watch television: Would you say that you watch TV almost every day, at least once a week, less than once a week or not at all?"
+MT6,Ever used a computer,Have you ever used a computer?
+MT7,Computer usage in the last 12 months,"In the last 12 months, have you used a computer from any location?"
+MT8,Frequency of computer usage in the last month,"During the last month, how often did you use a computer: almost every day, at least once a week, less than once a week or not at all?"
+MT9,Ever used internet,Have you ever used the Internet?
+MT10,Internet usage in the last 12 months,"In the last 12 months, have you used the Internet?"
+MT11,Frequency of Internet usage in the past month,"During the last month, how often did you use the internet: almost every day, at least once a week, less than once a week or not at all?"
+CM0A,Number of live births,Now I would like to ask about all the births you have had during your lifetime. How many live born children have you had in your entire life?
+CM0BD,Day of last birth,What is the date of your last birth (even if the baby died)?
+CM0BM,Month of last birth,What is the date of your last birth (even if the baby died)?
+CM0BY,Year of last birth,What is the date of your last birth (even if the baby died)?
+CM1,Ever given birth,Now I would like to ask about all the births you have had during your life. Have you ever given birth?
+CM2D,Day of first birth,"What was the date of your first birth?
+I mean the very first time you gave birth, even if the child is no longer living, or whose father is not your current partner."
+CM2M,Month of first birth,"What was the date of your first birth?
+I mean the very first time you gave birth, even if the child is no longer living, or whose father is not your current partner."
+CM2Y,Year of first birth,"What was the date of your first birth?
+I mean the very first time you gave birth, even if the child is no longer living, or whose father is not your current partner."
+CM3,Years since first birth,How many years ago did you have your first birth?
+CM4,Any sons or daughters living with you,Do you have any sons or daughters to whom you have given birth who are now living with you?
+CM5A,Sons living with you,How many sons live with you?
+CM5B,Daughters living with you,How many daughters live with you?
+CM6,Any sons or daughters not living with you,Do you have any sons or daughters to whom you have given birth who are alive but do not live with you?
+CM7A,Sons living elsewhere,How many sons are alive but do not live with you?
+CM7B,Daughters living elsewhere,How many daughters are alive but do not live with you?
+CM8,Ever had child who later died,Have you ever given birth to boy or girl who was born alive but later died?
+CM9A,Boys dead,How many boys have died?
+CM9B,Girls dead,How many girls have died?
+CM10,Children ever born,
+CM12D,Day of last birth,"Of these (total number in CM10) births you have had, when did you deliver the last one (even if he or she has died)?"
+CM12M,Month of last birth,"Of these (total number in CM10) births you have had, when did you deliver the last one (even if he or she has died)?"
+CM12Y,Year of last birth,"Of these (total number in CM10) births you have had, when did you deliver the last one (even if he or she has died)?"
+CM12A,Ever had miscarried pregnancies,"Sometimes women have pregnancies that might not end with a live birth.
+Have you ever had any pregnancy that was miscarried, ended in a stillbirth, or that was terminated early (aborted)?"
+CM12B,Number of miscarriages,"How many miscarriages have you had during your lifetime?
+By miscarriage, i mean an early and involuntary end of pregnancy within the first 5th month of pregnancy."
+CM12C,Number of still births,"In how many cases have your pregnancies ended with a stillbirth?
+By stillbirth, i mean a birth that took place after the 5th month of pregnancy, but the child did not show any signs of life."
+CM12_D,Number of abortions,"And how many early terminations of pregnancy (abortions) have you had during your lifetime?
+By early termination of pregnancy (abortion), I mean a pregnancy that was voluntarily terminated within the first 5 months of pregnancy."
+CM12E_M,Month of last abortion,When did your (last) early termination of pregnancy (abortion) take place?
+CM12E_Y,Year of last abortion,When did your (last) early termination of pregnancy (abortion) take place?
+CM12I1U,Unit of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12I1N,Number of units of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12H2_M,Month of previous to last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12H2_Y,Year of previous to last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12I2U,Unit of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12I2N,Number of units of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12H3_M,Month of second last before the last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12H3_Y,Year of second last before the last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12I3U,Unit of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12I3N,Number of units of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12H4_M,Month of third last before the last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12H4_Y,Year of third last before the last abortion,What month and year did your (last) early termination (abortion) take place?
+CM12I4U,Unit of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12I4N,Number of units of pregnancy duration,How many months (weeks) were you pregnant when your pregnancy was aborted?
+CM12KM,Date of first abortion - Month,In what month and year did you have your first early termination of pregnancy (abortion)?
+CM12KY,Date of first abortion - Year,In what month and year did you have your first early termination of pregnancy (abortion)?
+CM12L,Age of woman at first abortion,How old were you when you had your first early termination (abortion)?
+CM13,Last birth in last two years,
+DB1,Wanted last child then,"When you got pregnant with (name), did you want to get pregnant at that time?"
+DB2,Wanted child later or did not want more children,"Did you want to have a baby later on, or did you not want any (more) children?"
+DB3U,Desired waiting time (units),How much longer did you want to wait?
+DB3N,Desired waiting time (number),How much longer did you want to wait?
+MN1,Received antenatal care,Did you see anyone for antenatal care during your last pregnancy with (name)?
+MN2A,Antenatal care: Doctor,Whom did you see?
+MN2B,Antenatal care: Nurse / Midwife,Whom did you see?
+MN2F,Antenatal care: Traditional birth attendant,Whom did you see?
+MN2H,Antenatal care: Relative / Friend,Whom did you see?
+MN2X,Antenatal care: Other,Whom did you see?
+MN3,Times received antenatal care,How many times did you receive antenatal care during this pregnancy?
+MN4A,Blood pressure,"As part of your antenatal care during this pregnancy, were any of the following done at least once: Was your blood pressure measured?"
+MN4B,Urine sample,"As part of your antenatal care during this pregnancy, were any of the following done at least once: Did you give a urine sample?"
+MN4C,Blood sample,"As part of your antenatal care during this pregnancy, were any of the following done at least once: Did you give a blood sample?"
+MN17A,Assistance at delivery: Doctor,Who assisted with the delivery of (name)?
+MN17B,Assistance at delivery: Nurse / Midwife,Who assisted with the delivery of (name)?
+MN17F,Assistance at delivery: Traditional birth attendant,Who assisted with the delivery of (name)?
+MN17H,Assistance at delivery: Relative / Friend,Who assisted with the delivery of (name)?
+MN17X,Assistance at delivery: Other,Who assisted with the delivery of (name)?
+MN17Y,Assistance at delivery: No one,Who assisted with the delivery of (name)?
+MN18,Place of delivery,Where did you give birth to (name)?
+MN19,Delivery by caesarean section,"Was (name) delivered by caesarean section? That is, did they cut your belly open to take the baby out?"
+MN20,Size of child at birth,"When (name) was born, was he/she very large, larger than average, average, smaller than average or very small?"
+MN21,Child weighed at birth,Was (name) weighed at birth?
+MN22A,Weight from card or recall,How much did (name) weigh?
+MN22,Weight at birth (Kilograms),How much did (name) weigh?
+MN23,Menstrual period returned since the birth of child,Has your menstrual period returned since the birth of (name)?
+MN24,Ever breastfeed,Did you ever breastfeed (name)?
+MN25U,Time baby put to breast (unit),How long after birth did you first put (name) to the breast?
+MN25N,Time baby put to breast (number),How long after birth did you first put (name) to the breast?
+MN26,"Within first 3 days after delivery, child given anything to drink other than breast milk","In the first three days after delivery, was (name) given anything to drink other than breast milk?"
+MN27A,Child given to drink - Milk (other than breast milk),What was (name) given to drink?
+MN27B,Child given to drink - Plain water,What was (name) given to drink?
+MN27C,Child given to drink - Sugar or glucose water,What was (name) given to drink?
+MN27D,Child given to drink - Gripe water,What was (name) given to drink?
+MN27E,Child given to drink - Sugar - salt - water solution,What was (name) given to drink?
+MN27F,Child given to drink - Fruit juice,What was (name) given to drink?
+MN27G,Child given to drink - Infant formula,What was (name) given to drink?
+MN27H,Child given to drink - Tea / Infusions,What was (name) given to drink?
+MN27I,Child given to drink - Honey,What was (name) given to drink?
+MN27X,Child given to drink - Other,What was (name) given to drink?
+IS2A,Symptoms: Child not able to drink or breastfeed,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2B,Symptoms: Child becomes sicker,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2C,Symptoms: Child develops a fever,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2D,Symptoms: Child has fast breathing,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2E,Symptoms: Child has difficult breathing,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2F,Symptoms: Child has blood in stools,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2G,Symptoms: Child is drinking poorly,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2X,Symptoms: Other,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2Y,Symptoms: Other,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+IS2Z,Symptoms: Other,"Sometimes children have severe illnesses and should be taken immediately to a health facility.
+What types of symptoms would cause you to take your child to a health facility right away?"
+CP0A,Heard of: Woman sterilization,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [A] Female sterilisation?
+Probe: An operation women undertake in order to avoid pregnancy."
+CP0B,Heard of: Man sterilization,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [B] Male sterilisation?
+Probe: An operation men undertake in order to avoid pregnancy."
+CP0C,Heard of: IUD,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [C] IUD ?
+Probe: Women can have a coil placed inside the uterus by a doctor."
+CP0D,Heard of: Injectables,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [D] Injectibles?
+Probe: Women can receive injections that have an effect on their hormones and prevent pregnancy over a period of a few months."
+CP0E,Heard of: Implants,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [E] Implants?
+Probe: Women can have one or more small implants (rods) implanted in their upper arm by a doctor that prevent pregnancy for a number of years."
+CP0F,Heard of: Pill,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [F] Pill?
+Probe: Women can take pills on an everyday basis to avoid getting pregnant."
+CP0G,Heard of: Male condom,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [G] Male Condom?
+Probe: Men can put a rubber cover on their penis before or during sexual intercourse."
+CP0H,Heard of: Female condom,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [H] Female Condom?
+Probe: Women can put a cover inside their vagina before sexual intercourse."
+CP0I,Heard of: Diaphragm,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [I] Diaphragm?
+Probe: Women can insert a soft rubber cup in their vagina to block the sperm from entering their uterus or fallopian tubes."
+CP0J,Heard of: Foam / Jelly,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [J] Foam/ Jelly?
+Probe: Women may use spermicidal products (e.g. foam, jelly, cream) that can kill or prevent the sperm from moving and reaching the egg."
+CP0K,Heard of:LAM,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [K] Lactational amenorrhoea method (LAM)?"
+CP0L,Heard of: Periodic abstinence,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [L] Periodic abstinence/ Rhythm method?
+Probe: the woman can avoid pregnancy by not having sexual intercourse during fertile days in the month, i.e. days she is most likely to get pregnant."
+CP0M,Heard of: Withdrawal,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of:[M] Withdrawal?
+Probe: Men can pull out directly before ejaculating."
+CP0N,Heard of: Urgent contraception,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [N] Emergency/ postcoital contraception?
+Probe: As an emergency measure, within a period of 3 days, after having unprotected sexual intercourse, women can take special pills to prevent pregnancy."
+CP0X,Heard of: Other,"I would like to talk with you about another subject - family planning.
+Couples use different ways or methods in order to postpone or avoid pregnancy.
+Have you heard of: [X] Have you heard of any other ways or methods that men or women can utilise in order to avoid pregnancy?"
+CP1,Currently pregnant,Are you pregnant now?
+CP2,Currently using a method to avoid pregnancy,"As we mentioned earlier, couples use various ways or methods to delay or avoid a pregnancy.
+Are you currently doing something or using any method to delay or avoid pregnancy?"
+CP3A,Current method: Female sterilization,What are you doing to delay or avoid a pregnancy?
+CP3B,Current method: Male sterilization,What are you doing to delay or avoid a pregnancy?
+CP3C,Current method: IUD,What are you doing to delay or avoid a pregnancy?
+CP3D,Current method: Injectables,What are you doing to delay or avoid a pregnancy?
+CP3E,Current method: Implants,What are you doing to delay or avoid a pregnancy?
+CP3F,Current method: Pill,What are you doing to delay or avoid a pregnancy?
+CP3G,Current method: Male condom,What are you doing to delay or avoid a pregnancy?
+CP3H,Current method: Female condom,What are you doing to delay or avoid a pregnancy?
+CP3I,Current method: Diaphragm,What are you doing to delay or avoid a pregnancy?
+CP3J,Current method: Foam / Jelly,What are you doing to delay or avoid a pregnancy?
+CP3K,Current method: Lactational amenorrhoea method,What are you doing to delay or avoid a pregnancy?
+CP3L,Current method: Periodic abstinence / Rhythm,What are you doing to delay or avoid a pregnancy?
+CP3M,Current method: Withdrawal,What are you doing to delay or avoid a pregnancy?
+CP3X,Current method: Other,What are you doing to delay or avoid a pregnancy?
+UN2,Wanted to get pregnant at the time,"Now, I would like to talk to you about your current pregnancy. When you got pregnant, did you want to get pregnant at that time?"
+UN3,Wanted baby later or did not want more children,Did you want to have a baby later on or did you not want any (more) children?
+UN4,Would like to have another child (currently pregnant),"Now I would like to ask some questions about the future.
+After the child you are now expecting, would you like to have another child, or would you prefer not to have any more children?"
+UN6,Would like to have another child (not currently pregnant),"Now I would like to ask you some questions about the future. Would you like to have (a/another) child, or would you prefer not to have any (more) children?"
+UN7U,Desired waiting time (unit),How long would you like to wait before the birth of (a/another) child?
+UN7N,Desired waiting time (number),How long would you like to wait before the birth of (a/another) child?
+UN10,Able to get pregnant,Do you think you are physically able to get pregnant at this time?
+UN11A,Reason: Infrequent sex / No sex,Why do you think you are not physically able to get pregnant?
+UN11B,Reason: Menopausal,Why do you think you are not physically able to get pregnant?
+UN11C,Reason: Never menstruated,Why do you think you are not physically able to get pregnant?
+UN11D,Reason: Hysterectomy,Why do you think you are not physically able to get pregnant?
+UN11E,Reason: Trying to get pregnant for 2 years without result,Why do you think you are not physically able to get pregnant?
+UN11F,Reason: Postpartum amenorrheic,Why do you think you are not physically able to get pregnant?
+UN11G,Reason: Breastfeeding,Why do you think you are not physically able to get pregnant?
+UN11H,Reason: Too old,Why do you think you are not physically able to get pregnant?
+UN11I,Reason: Fatalistic,Why do you think you are not physically able to get pregnant?
+UN11X,Reason: Other,Why do you think you are not physically able to get pregnant?
+UN11Z,Reason: Don't know,Why do you think you are not physically able to get pregnant?
+UN13U,Start of last menstrual period (unit),When did your last menstrual period start?
+UN13N,Start of last menstrual period (number),When did your last menstrual period start?
+DV1A,If she goes out with out telling husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: If she goes out without telling him?"
+DV1B,If she neglects the children: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: If she neglects the chidlren?"
+DV1C,If she argues with husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: If she argues with him?"
+DV1D,If she refuses sex with husband: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: If she refuses to have sex with him?"
+DV1E,If she burns the food: wife beating justified,"Sometimes a husband becomes annoyed or gets angry at things that his wife does. In your opinion, is a husband justified in hitting or beating his wife in the following situations: If she burns the food?"
+MA1,Currently married or living with a man,Are you currently married or living together with a man as if married?
+MA2,Age of husband/partner,How old is your husband/partner?
+MA3,Husband/partner has other wives,"Besides yourself, does your husband/partner have any other wives or partners or does he live with other women as if married?"
+MA4,Number of other wives,How many other wives or partners does he have?
+MA5,Ever married or lived with a man,Have you ever been married or lived together with a man as if married?
+MA6,Marital status,"What is your marital status now: are you widowed, divorced or separated?"
+MA7,Married or lived with a man once or more than once,Have you been married or lived with a man only once or more than once?
+MA8M,Month of first union,In what month and year did you first marry or start living with a man as if married?
+MA8Y,Year of first union,In what month and year did you first marry or start living with a man as if married?
+MA9,Age at first union,How old were you when you started living with your first husband/partner?
+SB1,Age at first sexual intercourse,"Now, I would like to ask you some questions about sexual activity in order to gain a better understanding of some important life issues.
+The information you supply will remain strictly confidential.
+How old were you when you had sexual intercourse for the very first time?"
+SB2,Condom used during first sexual intercourse,"The first time you had sexual intercourse, was a condom used?"
+SB3U,Time since last sexual intercourse (unit),When was the last time you had sexual intercourse?
+SB3N,Time since last sexual intercourse (number),When was the last time you had sexual intercourse?
+SB4,Condom used at last sexual intercourse,"The last time you had sexual intrecourse, was a condom used?"
+SB5,Relationship to last sexual partner,What was your relationship to the person you last had sexual intercourse with?
+SB7,Age of last sexual partner,How old is this person?
+SB8,Sex with any other man in the last 12 month,Have you had sexual intercourse with any other person in the last 12 months?
+SB9,Condom used with prior sexual partner,The last time you had sexual intercourse with this other person was a condom used?
+SB10,Relationship to prior sexual partner,What was you relationship to this person?
+SB12,Age of prior sexual partner,How old is this person?
+SB13,Sex with any other man in the last 12 months,"In the last 12 months, have you had sexual intercourse with any other person, other than these two persons?"
+SB14,Number of sex partners in last 12 months,"In total, with how many different people have you had sexual intercourse in the last 12 months?"
+SB15,Number of sex partners in lifetime,"In total, with how many different people have you had sexual intercourse in your lifetime?"
+HA1,Ever heard of AIDS,"Now I would like to talk with you about something else.
+Have you ever heard of the HIV virus or an illness called AIDS (or SIDA)?"
+HA2,Can avoid AIDS virus by having one uninfected partner,Can people reduce their chance of getting the virus that causes AIDS by having just one uninfected sex partner who has no other sex partners?
+HA3,Can get AIDS virus through supernatural means,Can people get the virus that causes AIDS because of witchcraft or other supernatural means?
+HA4,Can avoid AIDS virus by using a condom correctly every time,Can people reduce their chance of getting the virus that causes AIDS by using a condom every time they have sex?
+HA5,Can get AIDS virus from mosquito bites,Can people get the virus that causes AIDS from mosquito bites?
+HA6,Can get AIDS virus by sharing food with a person who has AIDS,Can people get the virus that causes AIDS by sharing food with a person who has AIDS?
+HA7,Healthy-looking person may have AIDS virus,Is it possible for a healthy-looking person to have the virus that causes AIDS?
+HA8A,AIDS virus from mother to child during pregnancy,Can the virus that causes AIDS be transmitted from a mother to her baby: During pregnancy?
+HA8B,AIDS virus from mother to child during delivery,Can the virus that causes AIDS be transmitted from a mother to her baby: During delivery?
+HA8C,AIDS virus from mother to child through breastfeeding,Can the virus that causes AIDS be transmitted from a mother to her baby: By breasfeeding?
+HA9,Should female teacher with AIDS virus be allowed to teach in school,"In your opinion, if a female teacher has the virus that causes AIDS but is not sick, should she be allowed to continue teaching in school?"
+HA10,Would buy fresh vegetables from shopkeeper with AIDS virus,Would you buy fresh vegetables from a shopkeeper or salesperson if you knew that this person had the virus that causes AIDS?
+HA11,"If HH member became infected with AIDS virus, would want it to remain a secret","If a member of your family got infected with the virus that causes AIDS, would you want it to remain a secret?"
+HA12,Willing to care for person with AIDS in household,"If a member of your family became sick with AIDS, would you be willing to care for him or her in your own household?"
+HA15A,Given information about transmission of the AIDS virus from mother to baby,"During any of the visits as part of antenatal care for your pregnancy with (name), were you given any information about: [A] Babies contracting the virus that causes AIDS from their mother?"
+HA15B,Given information about what you can do to prevent getting the virus that causes AIDS,"During any of the visits as part of antenatal care for your pregnancy with (name), were you given any information about: [B] Things that you can do to prevent getting the virus that causes AIDS?"
+HA15C,Given information about testing for the virus that causes AIDS,"During any of the visits as part of antenatal care for your pregnancy with (name), were you given any information about: [C] Getting tested for the virus that causes AIDS? were you:"
+HA15D,Offered to be tested for the virus that causes AIDS,"During any of the visits as part of antenatal care for your pregnancy with (name), were you given any information about: [D] offered a test for the virus that causes AIDS?"
+HA16,Tested for AIDS virus as part of antenatal care,"I don’t want to know the results, but were you tested for the virus that causes AIDS as part of your antenatal care (pregnancy checks)?"
+HA17,Received results from test during antenatal care,"I don’t want to know the results, but did you get the results of the test?"
+HA18,Received consultation after testing during antenatal care,"Regardless of the result, all women who are tested are supposed to receive counselling/attend consultations after getting the result.
+A fter you were tested, did you receive counselling/attend consultations?"
+HA20,Tested for AIDS virus during delivery,"I don’t want to know the results, but were you tested for the virus that causes AIDS between the time you went for delivery but before the baby was born?"
+HA21,Received results from test during delivery,"I don’t want to know the results, but did you get the results of the test?"
+HA22,Tested for AIDS virus since test during pregnancy,Have you been tested for the virus that causes AIDS since that time you were tested during your pregnancy?
+HA23,Most recent time of testing for AIDS virus,When was the most recent time you were tested for the virus that causes AIDS?
+HA24,Ever been tested for AIDS virus,"I don’t want to know the results, but have you ever been tested to see if you have the virus that causes AIDS?"
+HA25,Most recent time of testing for AIDS virus,When was the most recent time you were tested?
+HA26,Received results of AIDS virus test,"I don’t want to know the results, but did you get the results of the test?"
+HA27,Know a place to get AIDS virus test,Do you know of a place where people can go to get tested for the virus that causes AIDS?
+TA1,Ever tried cigarette smoking,"Have you ever tried smoking cigarettes, even taking one or two puffs?"
+TA2,Age when cigarette was smoked for the first time,How old were you when you smoked an entire cigarette for the first time?
+TA3,Currently smoking cigarettes,Do you currently smoke cigarettes?
+TA4,Number of cigarettes smoked in the last 24 hours,How many cigarettes did you smoke in the last 24 hours?
+TA5,Number of days when cigarettes were smoked in past month,On how many days did you smoke cigarettes during the last month?
+TA6,Ever tried any smoked tobacco products other than cigarettes,"Have you ever tried any smoked tobacco products other than cigarettes, such as cigars (e.g. Cuban), a pipe or waterpipe (narghile/hookah)?"
+TA7,Used any smoked tobacco products during the last month,"During the last month, did you use any smoked tobacco products?"
+TA8A,Type of smoked tobacco product: Cigars,What type of smoked tobacco product did you use or smoke during the last month?
+TA8B,Type of smoked tobacco product: Water pipe,What type of smoked tobacco product did you use or smoke during the last month?
+TA8C,Type of smoked tobacco product: Cigarillos,What type of smoked tobacco product did you use or smoke during the last month?
+TA8D,Type of smoked tobacco product: Pipe,What type of smoked tobacco product did you use or smoke during the last month?
+TA8X,Type of smoked tobacco product: Other,What type of smoked tobacco product did you use or smoke during the last month?
+TA9,Number of days when tobacco products where smoked in past month,On how many days did you use smoked tobacco products during the last month?
+TA10,Ever tried any form of smokeless tobacco products,"Have you ever tried any form of smokeless tobacco products, such as chewing tobacco, tobacco for sniffing (snuff) or dipping tobacco?"
+TA11,Used any smokeless tobacco products during the last month,Did you use any smokeless tobacco products during the last month?
+TA12A,Type of smokeless tobacco product used: Chewing tobacco,What type of smokeless tobacco product did you use during the last month?
+TA12B,Type of smokeless tobacco product used: Snuff,What type of smokeless tobacco product did you use during the last month?
+TA12C,Type of smokeless tobacco product used: Dip,What type of smokeless tobacco product did you use during the last month?
+TA12X,Type of smokeless tobacco product used: Other,What type of smokeless tobacco product did you use during the last month?
+TA13,Number of days when smokeless tobacco products where used in past month,On how many days did you use smokeless tobacco products during the last month?
+TA14,Ever drunk alcohol,"Now i would like to ask you some questions about drinking alcohol.
+Have you ever drunk alcohol?"
+TA15,Age when alcohol was used for the first time,"We count one drink of alcohol as one can or bottle of beer, one glass of wine, or one shot of strong drink.
+How old were you when you had your first drink of alcohol, other than a few sips?"
+TA16,Number of days when at least one drink of alcohol was used in past month,"During the last month, on how many days did you have at least one drink of alcohol?"
+TA17,Number of drinks usually consumed,"In the last month, on those days that you drank alcohol, what is the number of drinks did you usually had?"
+LS2,Estimation of overall happiness,"I would like to ask you some simple questions on happiness and satisfaction.
+First, taking all things together, would you say you are very happy, happy, neither happy nor unhappy, unhappy or very unhappy?
+You can also look at these pictures to help you respond."
+LS3,Satisfaction with family life,"Now I will ask you questions about your level of satisfaction in different areas of your life.
+In each case, we have five possible responses: Please tell me, for each question, whether you are very satisfied, satisfied, neither satisfied nor unsatisfied, unsatisfied or very unsatisfied.
+Again, you can look at these pictures to help you respond.
+How satisfied are you with your family life?"
+LS4,Satisfaction with friendships,How satisfied are you with your friendships?
+LS5,School attendance during the current school year,"During the current (2011-2012) school/academic year, did you attend school/university at any time?"
+LS6,Satisfaction with school,How satisfied are you with your school/university?
+LS7,Satisfaction with current job,How satisfied are you with your current job?
+LS8,Satisfaction with health,How satisfied are you with your health?
+LS9,Satisfaction with current residence,"How satisfied are you with where you live?
+If necessary, explain that the question refers to the living environment, including the neighbourhood and the dwelling."
+LS10,Satisfaction with treatment by other people,How satisfied are you with how people around you generally treat you?
+LS11,Satisfaction with appearance,How satisfied are you with the way you look?
+LS12,Satisfaction with life overall,"How satisfied are you with your life, overall?"
+LS13,Satisfaction with current income,How satisfied are you with your current income?
+LS14,Life satisfaction in comparison with last year,"Compared to this time last year, would you say that your life has improved, stayed more or less the same, or worsened, overall?"
+LS15,Life satisfaction expectation one year from now,"And in one year from now, do you expect that your life will be better, will be more or less the same, or will be worse, overall?"
+HE1,Has a health card,Do you have a health booklet?
+HE2,Has health insurance,Do you have health insurance?
+HE3,Use of health care services at the health centre,Do you use health care services at the health centre?
+HE4,Provided with health care services at the nearest health centre free of charge,Are you provided with health care services at the nearest health centre of charge?
+HE5,Use of health services at the hospital,Do you use health care services at the hospital?
+HE6,Provided with health care services at the nearest hospital free of charge,Are you provided with health care services at the nearest hospital free of charge?
+HE7,Use of emergency health care services,Do you use emergency health care services?
+HE8,Provided with emergency health care services free of charge,Are you provided with emergency health care services free of charge?
+HE9,Paying for all necessary health care services and medication,Do you pay all necessary health care services and medication?
+HE10,Paying for only vital/urgently needed health care services and medication,Do you pay only vital/urgently needed health care services and medications?
+HE11,Can afford the medication without one-off financial aid,Can you afford medications without one-off financial assistance?
+DU1,Cluster number,
+DU2,Household number,
+DU3,Interviewer number,
+DU4D,Day of interview,
+DU4M,Month of interview,
+DU4Y,Year of interview,
+DU6,Woman's line number,
+DU7,Man's line number,
+DU9,Result of interview,
+DU10,Result of interview,
+DU11,Field editor,
+DU12,Data entry clerk,
+DU13,Have you ever used any drugs (narcotic substances) in your life?,Have you ever used any drugs (narcotic substances) in your life?
+DU14A,Cannabis (marijuana and/or hashish),When did you last take any of the following substances/drugs? [a] cannabis (marijuana and/or hashish)
+DU14B,Ecstasy,When did you last take any of the following substances/drugs? [b] ecstasy
+DU14C,Amphetamine and/or methamphetamine,"When did you last take any of the following substances/drugs? [c] amphetamine and/or methamphetamine, most commonly referred to as “speed”"
+DU14D,Cocaine or crack,When did you last take any of the following substances/drugs? [d] cocaine or crack
+DU14E,Heroin,When did you last take any of the following substances/drugs? [e] Heroin
+DU14F,LSD (trip / acid),When did you last take any of the following substances/drugs? [f] LSD (trip/acid)
+DU14G,Magic mushrooms,When did you last take any of the following substances/drugs? [g] magic mushrooms
+DU14H,Inhalants (e.g. glue),"When did you last take any of the following substances/drugs? [H] substances which are inhaled, such as glue and other industrial products which are deliberately inhaled"
+HH6,Area,
+HH7,Region,
+HH7A,Region,
+WDOI,Date of interview women (CMC),
+WDOB,Date of birth of woman (CMC),
+WAGE,Age,
+WDOM,Date of marriage (CMC),
+WAGEM,Age at first marriage/union,
+WDOBFC,Date of birth of first child (CMC),
+WDOBLC,Date of birth of last child (CMC),
+MSTATUS,Marital/Union status,
+CEB,Children ever born,
+CSURV,Children surviving,
+CDEAD,Children dead,
+packet,Packet number,
+welevel,Education,
+language,Language of household head,
+wmweight,Women's sample weight,
+wscore,Wealth index score,
+windex5,Wealth index quintiles,
+PSU,Primary sampling unit,
+strata,Stratum,

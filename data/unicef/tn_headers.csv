@@ -1,0 +1,24 @@
+HH1,Cluster number,
+HH2,Household number,
+TNLN,Net number,
+TN4,Mosquito net observed,
+TN5,Brand/type of observed net,
+TN6,Months ago net obtained,How many months ago did your household get the mosquito net?
+TN8,Net treated with an insecticide when obtained,"When you got the net, was it already treated with an insecticide to kill or repel mosquitoes?"
+TN9,Net soaked or dipped since obtained,"Since you got the net, was it ever soaked or dipped in a liquid to kill or repel mosquitoes?"
+TN10,Months ago net soaked or dipped,How many months ago was the net last soaked or dipped?
+TN11,Persons slept under mosquito net last night,Did anyone sleep under this mosquito net last night?
+TN12_1,Person 1 who slept under net,Who slept under this mosquito net last night?
+TN12_2,Person 2 who slept under net,Who slept under this mosquito net last night?
+TN12_3,Person 3 who slept under net,Who slept under this mosquito net last night?
+TN12_4,Person 4 who slept under net,Who slept under this mosquito net last night?
+TN2,Number of mosquito nets,How many mosquito nets does your household have?
+HH6,Area,
+HH7,Region,
+HH7A,District,
+helevel,Education of household head,
+wscore,Wealth index score,
+windex5,Wealth index quintiles,
+hhweight,Household sample weight,
+PSU,Primary sampling unit,
+stratum,Strata,
