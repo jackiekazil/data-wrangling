@@ -1,0 +1,2526 @@
+[
+  {
+    "name": "earth",
+    "parent": ""
+  },
+  {
+    "name": "africa",
+    "parent": "earth"
+  },
+  {
+    "name": "asia",
+    "parent": "earth"
+  },
+  {
+    "name": "antarctica",
+    "parent": "earth"
+  },
+  {
+    "name": "australia and oceania",
+    "parent": "earth"
+  },
+  {
+    "name": "europe",
+    "parent": "earth"
+  },
+  {
+    "name": "north america",
+    "parent": "earth"
+  },
+  {
+    "name": "south america",
+    "parent": "earth"
+  },
+  {
+    "name": "algeria",
+    "parent": "africa"
+  },
+  {
+    "name": "angola",
+    "parent": "africa"
+  },
+  {
+    "name": "benin",
+    "parent": "africa"
+  },
+  {
+    "name": "botswana",
+    "parent": "africa"
+  },
+  {
+    "name": "burkina faso",
+    "parent": "africa"
+  },
+  {
+    "name": "burundi",
+    "parent": "africa"
+  },
+  {
+    "name": "cameroon",
+    "parent": "africa"
+  },
+  {
+    "name": "cape verde",
+    "parent": "africa"
+  },
+  {
+    "name": "central african republic",
+    "parent": "africa"
+  },
+  {
+    "name": "chad",
+    "parent": "africa"
+  },
+  {
+    "name": "comoros",
+    "parent": "africa"
+  },
+  {
+    "name": "democratic republic of congo",
+    "parent": "africa"
+  },
+  {
+    "name": "cote d ivoire",
+    "parent": "africa"
+  },
+  {
+    "name": "djibouti",
+    "parent": "africa"
+  },
+  {
+    "name": "egypt",
+    "parent": "africa"
+  },
+  {
+    "name": "equatorial Guinea",
+    "parent": "africa"
+  },
+  {
+    "name": "eritrea",
+    "parent": "africa"
+  },
+  {
+    "name": "ethiopia",
+    "parent": "africa"
+  },
+  {
+    "name": "gabon",
+    "parent": "africa"
+  },
+  {
+    "name": "gambia",
+    "parent": "africa"
+  },
+  {
+    "name": "ghana",
+    "parent": "africa"
+  },
+  {
+    "name": "guinea",
+    "parent": "africa"
+  },
+  {
+    "name": "guinea bissau",
+    "parent": "africa"
+  },
+  {
+    "name": "kenya",
+    "parent": "africa"
+  },
+  {
+    "name": "lesotho",
+    "parent": "africa"
+  },
+  {
+    "name": "liberia",
+    "parent": "africa"
+  },
+  {
+    "name": "libya",
+    "parent": "africa"
+  },
+  {
+    "name": "madagascar",
+    "parent": "africa"
+  },
+  {
+    "name": "malawi",
+    "parent": "africa"
+  },
+  {
+    "name": "mali",
+    "parent": "africa"
+  },
+  {
+    "name": "mauritania",
+    "parent": "africa"
+  },
+  {
+    "name": "mauritius",
+    "parent": "africa"
+  },
+  {
+    "name": "morocco",
+    "parent": "africa"
+  },
+  {
+    "name": "mozambique",
+    "parent": "africa"
+  },
+  {
+    "name": "namibia",
+    "parent": "africa"
+  },
+  {
+    "name": "niger",
+    "parent": "africa"
+  },
+  {
+    "name": "nigeria",
+    "parent": "africa"
+  },
+  {
+    "name": "rwanda",
+    "parent": "africa"
+  },
+  {
+    "name": "sao tome & principe",
+    "parent": "africa"
+  },
+  {
+    "name": "senegal",
+    "parent": "africa"
+  },
+  {
+    "name": "seychelles",
+    "parent": "africa"
+  },
+  {
+    "name": "sierra leone",
+    "parent": "africa"
+  },
+  {
+    "name": "somalia",
+    "parent": "africa"
+  },
+  {
+    "name": "south africa",
+    "parent": "africa"
+  },
+  {
+    "name": "south sudan",
+    "parent": "africa"
+  },
+  {
+    "name": "sudan",
+    "parent": "africa"
+  },
+  {
+    "name": "swaziland",
+    "parent": "africa"
+  },
+  {
+    "name": "tanzania",
+    "parent": "africa"
+  },
+  {
+    "name": "togo",
+    "parent": "africa"
+  },
+  {
+    "name": "tunisia",
+    "parent": "africa"
+  },
+  {
+    "name": "uganda",
+    "parent": "africa"
+  },
+  {
+    "name": "zambia",
+    "parent": "africa"
+  },
+  {
+    "name": "zimbabwe",
+    "parent": "africa"
+  },
+  {
+    "name": "afghanistan",
+    "parent": "asia"
+  },
+  {
+    "name": "bahrain",
+    "parent": "asia"
+  },
+  {
+    "name": "bangladesh",
+    "parent": "asia"
+  },
+  {
+    "name": "bhutan",
+    "parent": "asia"
+  },
+  {
+    "name": "brunei",
+    "parent": "asia"
+  },
+  {
+    "name": "cambodia",
+    "parent": "asia"
+  },
+  {
+    "name": "china",
+    "parent": "asia"
+  },
+  {
+    "name": "east timor",
+    "parent": "asia"
+  },
+  {
+    "name": "india",
+    "parent": "asia"
+  },
+  {
+    "name": "indonesia",
+    "parent": "asia"
+  },
+  {
+    "name": "iran",
+    "parent": "asia"
+  },
+  {
+    "name": "iraq",
+    "parent": "asia"
+  },
+  {
+    "name": "israel",
+    "parent": "asia"
+  },
+  {
+    "name": "japan",
+    "parent": "asia"
+  },
+  {
+    "name": "jordan",
+    "parent": "asia"
+  },
+  {
+    "name": "kazakhstan",
+    "parent": "asia"
+  },
+  {
+    "name": "north korea",
+    "parent": "asia"
+  },
+  {
+    "name": "south korea",
+    "parent": "asia"
+  },
+  {
+    "name": "kuwait",
+    "parent": "asia"
+  },
+  {
+    "name": "kyrgyzstan",
+    "parent": "asia"
+  },
+  {
+    "name": "laos",
+    "parent": "asia"
+  },
+  {
+    "name": "lebanon",
+    "parent": "asia"
+  },
+  {
+    "name": "malaysia",
+    "parent": "asia"
+  },
+  {
+    "name": "maldives",
+    "parent": "asia"
+  },
+  {
+    "name": "mongolia",
+    "parent": "asia"
+  },
+  {
+    "name": "myanmar",
+    "parent": "asia"
+  },
+  {
+    "name": "nepal",
+    "parent": "asia"
+  },
+  {
+    "name": "oman",
+    "parent": "asia"
+  },
+  {
+    "name": "pakistan",
+    "parent": "asia"
+  },
+  {
+    "name": "the philippines",
+    "parent": "asia"
+  },
+  {
+    "name": "qatar",
+    "parent": "asia"
+  },
+  {
+    "name": "russia",
+    "parent": "asia"
+  },
+  {
+    "name": "saudi arabia",
+    "parent": "asia"
+  },
+  {
+    "name": "singapore",
+    "parent": "asia"
+  },
+  {
+    "name": "sri lanka",
+    "parent": "asia"
+  },
+  {
+    "name": "syria",
+    "parent": "asia"
+  },
+  {
+    "name": "taiwan",
+    "parent": "asia"
+  },
+  {
+    "name": "tajikistan",
+    "parent": "asia"
+  },
+  {
+    "name": "thailand",
+    "parent": "asia"
+  },
+  {
+    "name": "turkey",
+    "parent": "asia"
+  },
+  {
+    "name": "turkmenistan",
+    "parent": "asia"
+  },
+  {
+    "name": "united arab emirates",
+    "parent": "asia"
+  },
+  {
+    "name": "uzbekistan",
+    "parent": "asia"
+  },
+  {
+    "name": "vietnam",
+    "parent": "asia"
+  },
+  {
+    "name": "yemen",
+    "parent": "asia"
+  },
+  {
+    "name": "australia",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "fiji",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "kiribati",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "marshall islands",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "micronesia",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "samoa",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "solomon islands",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "nauru",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "new zealand",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "palau",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "papua new guinea",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "tonga",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "tuvalu",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "vanuatu",
+    "parent": "australia and oceania"
+  },
+  {
+    "name": "albania",
+    "parent": "europe"
+  },
+  {
+    "name": "andorra",
+    "parent": "europe"
+  },
+  {
+    "name": "armenia",
+    "parent": "europe"
+  },
+  {
+    "name": "austria",
+    "parent": "europe"
+  },
+  {
+    "name": "azerbaijan",
+    "parent": "europe"
+  },
+  {
+    "name": "belarus",
+    "parent": "europe"
+  },
+  {
+    "name": "belgium",
+    "parent": "europe"
+  },
+  {
+    "name": "bosnia & herzegovina",
+    "parent": "europe"
+  },
+  {
+    "name": "bulgaria",
+    "parent": "europe"
+  },
+  {
+    "name": "croatia",
+    "parent": "europe"
+  },
+  {
+    "name": "cyprus",
+    "parent": "europe"
+  },
+  {
+    "name": "czech republic",
+    "parent": "europe"
+  },
+  {
+    "name": "denmark",
+    "parent": "europe"
+  },
+  {
+    "name": "estonia",
+    "parent": "europe"
+  },
+  {
+    "name": "finland",
+    "parent": "europe"
+  },
+  {
+    "name": "france",
+    "parent": "europe"
+  },
+  {
+    "name": "georgia",
+    "parent": "europe"
+  },
+  {
+    "name": "germany",
+    "parent": "europe"
+  },
+  {
+    "name": "greece",
+    "parent": "europe"
+  },
+  {
+    "name": "hungary",
+    "parent": "europe"
+  },
+  {
+    "name": "iceland",
+    "parent": "europe"
+  },
+  {
+    "name": "ireland",
+    "parent": "europe"
+  },
+  {
+    "name": "italy",
+    "parent": "europe"
+  },
+  {
+    "name": "kosovo",
+    "parent": "europe"
+  },
+  {
+    "name": "latvia",
+    "parent": "europe"
+  },
+  {
+    "name": "liechtenstein",
+    "parent": "europe"
+  },
+  {
+    "name": "lithuania",
+    "parent": "europe"
+  },
+  {
+    "name": "luxembourg",
+    "parent": "europe"
+  },
+  {
+    "name": "macedonia",
+    "parent": "europe"
+  },
+  {
+    "name": "malta",
+    "parent": "europe"
+  },
+  {
+    "name": "moldova",
+    "parent": "europe"
+  },
+  {
+    "name": "monaco",
+    "parent": "europe"
+  },
+  {
+    "name": "montenegro",
+    "parent": "europe"
+  },
+  {
+    "name": "the netherlands",
+    "parent": "europe"
+  },
+  {
+    "name": "norway",
+    "parent": "europe"
+  },
+  {
+    "name": "poland",
+    "parent": "europe"
+  },
+  {
+    "name": "portugal",
+    "parent": "europe"
+  },
+  {
+    "name": "romania",
+    "parent": "europe"
+  },
+  {
+    "name": "russia",
+    "parent": "europe"
+  },
+  {
+    "name": "san marino",
+    "parent": "europe"
+  },
+  {
+    "name": "serbia",
+    "parent": "europe"
+  },
+  {
+    "name": "slovakia",
+    "parent": "europe"
+  },
+  {
+    "name": "slovenia",
+    "parent": "europe"
+  },
+  {
+    "name": "spain",
+    "parent": "europe"
+  },
+  {
+    "name": "sweden",
+    "parent": "europe"
+  },
+  {
+    "name": "switzerland",
+    "parent": "europe"
+  },
+  {
+    "name": "turkey",
+    "parent": "europe"
+  },
+  {
+    "name": "ukraine",
+    "parent": "europe"
+  },
+  {
+    "name": "united kingdom",
+    "parent": "europe"
+  },
+  {
+    "name": "vatican city",
+    "parent": "europe"
+  },
+  {
+    "name": "antigua & barbuda",
+    "parent": "north america"
+  },
+  {
+    "name": "bahamas",
+    "parent": "north america"
+  },
+  {
+    "name": "barbados",
+    "parent": "north america"
+  },
+  {
+    "name": "belize",
+    "parent": "north america"
+  },
+  {
+    "name": "canada",
+    "parent": "north america"
+  },
+  {
+    "name": "costa rica",
+    "parent": "north america"
+  },
+  {
+    "name": "cuba",
+    "parent": "north america"
+  },
+  {
+    "name": "dominica",
+    "parent": "north america"
+  },
+  {
+    "name": "dominican republic",
+    "parent": "north america"
+  },
+  {
+    "name": "el salvador",
+    "parent": "north america"
+  },
+  {
+    "name": "grenada",
+    "parent": "north america"
+  },
+  {
+    "name": "guatemala",
+    "parent": "north america"
+  },
+  {
+    "name": "haiti",
+    "parent": "north america"
+  },
+  {
+    "name": "honduras",
+    "parent": "north america"
+  },
+  {
+    "name": "jamaica",
+    "parent": "north america"
+  },
+  {
+    "name": "mexico",
+    "parent": "north america"
+  },
+  {
+    "name": "nicaragua",
+    "parent": "north america"
+  },
+  {
+    "name": "panama",
+    "parent": "north america"
+  },
+  {
+    "name": "st. kitts & nevis ",
+    "parent": "north america"
+  },
+  {
+    "name": "st. lucia",
+    "parent": "north america"
+  },
+  {
+    "name": "st. vincent & the grenadines",
+    "parent": "north america"
+  },
+  {
+    "name": "trinidad & tobago",
+    "parent": "north america"
+  },
+  {
+    "name": "united states of america",
+    "parent": "north america"
+  },
+  {
+    "name": "argentina",
+    "parent": "south america"
+  },
+  {
+    "name": "bolivia",
+    "parent": "south america"
+  },
+  {
+    "name": "brazil",
+    "parent": "south america"
+  },
+  {
+    "name": "chile",
+    "parent": "south america"
+  },
+  {
+    "name": "colombia",
+    "parent": "south america"
+  },
+  {
+    "name": "ecuador",
+    "parent": "south america"
+  },
+  {
+    "name": "guyana",
+    "parent": "south america"
+  },
+  {
+    "name": "paraguay",
+    "parent": "south america"
+  },
+  {
+    "name": "peru",
+    "parent": "south america"
+  },
+  {
+    "name": "suriname",
+    "parent": "south america"
+  },
+  {
+    "name": "uruguay",
+    "parent": "south america"
+  },
+  {
+    "name": "venezuela",
+    "parent": "south america"
+  },
+  {
+    "name": "adrar",
+    "parent": "algeria"
+  },
+  {
+    "name": "aïn defla",
+    "parent": "algeria"
+  },
+  {
+    "name": "aïn témouchent",
+    "parent": "algeria"
+  },
+  {
+    "name": "algiers",
+    "parent": "algeria"
+  },
+  {
+    "name": "annaba",
+    "parent": "algeria"
+  },
+  {
+    "name": "batna",
+    "parent": "algeria"
+  },
+  {
+    "name": "béchar",
+    "parent": "algeria"
+  },
+  {
+    "name": "béjaïa",
+    "parent": "algeria"
+  },
+  {
+    "name": "biskra",
+    "parent": "algeria"
+  },
+  {
+    "name": "blida",
+    "parent": "algeria"
+  },
+  {
+    "name": "bordj bou arréridj",
+    "parent": "algeria"
+  },
+  {
+    "name": "bouira",
+    "parent": "algeria"
+  },
+  {
+    "name": "boumerdès",
+    "parent": "algeria"
+  },
+  {
+    "name": "chlef",
+    "parent": "algeria"
+  },
+  {
+    "name": "constantine",
+    "parent": "algeria"
+  },
+  {
+    "name": "djelfa",
+    "parent": "algeria"
+  },
+  {
+    "name": "el bayadh",
+    "parent": "algeria"
+  },
+  {
+    "name": "el oued",
+    "parent": "algeria"
+  },
+  {
+    "name": "el taref",
+    "parent": "algeria"
+  },
+  {
+    "name": "ghardaïa",
+    "parent": "algeria"
+  },
+  {
+    "name": "guelma",
+    "parent": "algeria"
+  },
+  {
+    "name": "illizi",
+    "parent": "algeria"
+  },
+  {
+    "name": "jijel",
+    "parent": "algeria"
+  },
+  {
+    "name": "khenchela",
+    "parent": "algeria"
+  },
+  {
+    "name": "laghouat",
+    "parent": "algeria"
+  },
+  {
+    "name": "m'sila",
+    "parent": "algeria"
+  },
+  {
+    "name": "mascara",
+    "parent": "algeria"
+  },
+  {
+    "name": "médéa",
+    "parent": "algeria"
+  },
+  {
+    "name": "mila",
+    "parent": "algeria"
+  },
+  {
+    "name": "mostaganem",
+    "parent": "algeria"
+  },
+  {
+    "name": "naama",
+    "parent": "algeria"
+  },
+  {
+    "name": "oran",
+    "parent": "algeria"
+  },
+  {
+    "name": "ouargla",
+    "parent": "algeria"
+  },
+  {
+    "name": "oum el-bouaghi",
+    "parent": "algeria"
+  },
+  {
+    "name": "relizane",
+    "parent": "algeria"
+  },
+  {
+    "name": "saïda",
+    "parent": "algeria"
+  },
+  {
+    "name": "sétif",
+    "parent": "algeria"
+  },
+  {
+    "name": "sidi bel abbes",
+    "parent": "algeria"
+  },
+  {
+    "name": "skikda",
+    "parent": "algeria"
+  },
+  {
+    "name": "souk ahras",
+    "parent": "algeria"
+  },
+  {
+    "name": "tamanghasset",
+    "parent": "algeria"
+  },
+  {
+    "name": "tébessa",
+    "parent": "algeria"
+  },
+  {
+    "name": "tiaret",
+    "parent": "algeria"
+  },
+  {
+    "name": "tindouf",
+    "parent": "algeria"
+  },
+  {
+    "name": "tipasa",
+    "parent": "algeria"
+  },
+  {
+    "name": "tissemsilt",
+    "parent": "algeria"
+  },
+  {
+    "name": "tizi ouzou",
+    "parent": "algeria"
+  },
+  {
+    "name": "tlemcen",
+    "parent": "algeria"
+  },
+  {
+    "name": "abomey",
+    "parent": "benin"
+  },
+  {
+    "name": "abomey-calavi",
+    "parent": "benin"
+  },
+  {
+    "name": "allada",
+    "parent": "benin"
+  },
+  {
+    "name": "aplahoué",
+    "parent": "benin"
+  },
+  {
+    "name": "athiémé",
+    "parent": "benin"
+  },
+  {
+    "name": "banikoara",
+    "parent": "benin"
+  },
+  {
+    "name": "bassila",
+    "parent": "benin"
+  },
+  {
+    "name": "bembèrèkè",
+    "parent": "benin"
+  },
+  {
+    "name": "bétérou",
+    "parent": "benin"
+  },
+  {
+    "name": "bohicon",
+    "parent": "benin"
+  },
+  {
+    "name": "bori",
+    "parent": "benin"
+  },
+  {
+    "name": "boukoumbé",
+    "parent": "benin"
+  },
+  {
+    "name": "comé",
+    "parent": "benin"
+  },
+  {
+    "name": "cotonou",
+    "parent": "benin"
+  },
+  {
+    "name": "cové",
+    "parent": "benin"
+  },
+  {
+    "name": "dassa-zoumé",
+    "parent": "benin"
+  },
+  {
+    "name": "djougou",
+    "parent": "benin"
+  },
+  {
+    "name": "dogbo-tota",
+    "parent": "benin"
+  },
+  {
+    "name": "ganvie",
+    "parent": "benin"
+  },
+  {
+    "name": "godomey",
+    "parent": "benin"
+  },
+  {
+    "name": "grand popo",
+    "parent": "benin"
+  },
+  {
+    "name": "kandi",
+    "parent": "benin"
+  },
+  {
+    "name": "kérou",
+    "parent": "benin"
+  },
+  {
+    "name": "kétou",
+    "parent": "benin"
+  },
+  {
+    "name": "kouandé",
+    "parent": "benin"
+  },
+  {
+    "name": "lokossa",
+    "parent": "benin"
+  },
+  {
+    "name": "malanville",
+    "parent": "benin"
+  },
+  {
+    "name": "natitingou",
+    "parent": "benin"
+  },
+  {
+    "name": "ndali",
+    "parent": "benin"
+  },
+  {
+    "name": "nikki",
+    "parent": "benin"
+  },
+  {
+    "name": "ouidah",
+    "parent": "benin"
+  },
+  {
+    "name": "parakou",
+    "parent": "benin"
+  },
+  {
+    "name": "péhonko",
+    "parent": "benin"
+  },
+  {
+    "name": "pobé",
+    "parent": "benin"
+  },
+  {
+    "name": "porga",
+    "parent": "benin"
+  },
+  {
+    "name": "porto novo",
+    "parent": "benin"
+  },
+  {
+    "name": "sakété",
+    "parent": "benin"
+  },
+  {
+    "name": "savalou",
+    "parent": "benin"
+  },
+  {
+    "name": "savé",
+    "parent": "benin"
+  },
+  {
+    "name": "ségbana",
+    "parent": "benin"
+  },
+  {
+    "name": "tanguiéta",
+    "parent": "benin"
+  },
+  {
+    "name": "tchaourou",
+    "parent": "benin"
+  },
+  {
+    "name": "bengo",
+    "parent": "angola"
+  },
+  {
+    "name": "benguela",
+    "parent": "angola"
+  },
+  {
+    "name": "bié",
+    "parent": "angola"
+  },
+  {
+    "name": "cabinda",
+    "parent": "angola"
+  },
+  {
+    "name": "cuando cubango",
+    "parent": "angola"
+  },
+  {
+    "name": "cuanza norte",
+    "parent": "angola"
+  },
+  {
+    "name": "cuanza sul",
+    "parent": "angola"
+  },
+  {
+    "name": "cunene",
+    "parent": "angola"
+  },
+  {
+    "name": "huambo",
+    "parent": "angola"
+  },
+  {
+    "name": "huíla",
+    "parent": "angola"
+  },
+  {
+    "name": "luanda",
+    "parent": "angola"
+  },
+  {
+    "name": "lunda norte",
+    "parent": "angola"
+  },
+  {
+    "name": "lunda sul",
+    "parent": "angola"
+  },
+  {
+    "name": "malanje",
+    "parent": "angola"
+  },
+  {
+    "name": "moxico",
+    "parent": "angola"
+  },
+  {
+    "name": "namibe",
+    "parent": "angola"
+  },
+  {
+    "name": "uíge",
+    "parent": "angola"
+  },
+  {
+    "name": "zaire",
+    "parent": "angola"
+  },
+  {
+    "name": "chittagong",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "rajshahi",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "khulna",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "barisal",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "sylhet",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "comilla",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "rangpur",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "narayanganj",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "gazipur",
+    "parent": "bangladesh"
+  },
+  {
+    "name": "paris",
+    "parent": "france"
+  },
+  {
+    "name": "andaman and nicobar islands",
+    "parent": "india"
+  },
+  {
+    "name": "arunachal pradesh",
+    "parent": "india"
+  },
+  {
+    "name": "assam",
+    "parent": "india"
+  },
+  {
+    "name": "andhra pradesh",
+    "parent": "india"
+  },
+  {
+    "name": "bihar",
+    "parent": "india"
+  },
+  {
+    "name": "chandigarh",
+    "parent": "india"
+  },
+  {
+    "name": "chhattisgarh",
+    "parent": "india"
+  },
+  {
+    "name": "dadra and nagar haveli",
+    "parent": "india"
+  },
+  {
+    "name": "daman and diu",
+    "parent": "india"
+  },
+  {
+    "name": "national capital territory of delhi",
+    "parent": "india"
+  },
+  {
+    "name": "goa",
+    "parent": "india"
+  },
+  {
+    "name": "gujarat",
+    "parent": "india"
+  },
+  {
+    "name": "haryana",
+    "parent": "india"
+  },
+  {
+    "name": "himachal pradesh",
+    "parent": "india"
+  },
+  {
+    "name": "jammu and kashmir",
+    "parent": "india"
+  },
+  {
+    "name": "jharkhand",
+    "parent": "india"
+  },
+  {
+    "name": "karnataka",
+    "parent": "india"
+  },
+  {
+    "name": "kerala",
+    "parent": "india"
+  },
+  {
+    "name": "lakshadweep",
+    "parent": "india"
+  },
+  {
+    "name": "madhya pradesh",
+    "parent": "india"
+  },
+  {
+    "name": "maharashtra",
+    "parent": "india"
+  },
+  {
+    "name": "manipur",
+    "parent": "india"
+  },
+  {
+    "name": "meghalaya",
+    "parent": "india"
+  },
+  {
+    "name": "mizoram",
+    "parent": "india"
+  },
+  {
+    "name": "nagaland",
+    "parent": "india"
+  },
+  {
+    "name": "orissa",
+    "parent": "india"
+  },
+  {
+    "name": "puducherry",
+    "parent": "india"
+  },
+  {
+    "name": "punjab",
+    "parent": "india"
+  },
+  {
+    "name": "rajasthan",
+    "parent": "india"
+  },
+  {
+    "name": "sikkim",
+    "parent": "india"
+  },
+  {
+    "name": "tamil nadu",
+    "parent": "india"
+  },
+  {
+    "name": "telangana",
+    "parent": "india"
+  },
+  {
+    "name": "tripura",
+    "parent": "india"
+  },
+  {
+    "name": "uttar pradesh",
+    "parent": "india"
+  },
+  {
+    "name": "uttarakhand",
+    "parent": "india"
+  },
+  {
+    "name": "west bengal",
+    "parent": "india"
+  },
+  {
+    "name": "anantapur",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "chittoor",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "cuddapah",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "east godavari",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "guntur",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "krishna",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "kurnool",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "nellore",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "prakasam",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "srikakulam",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "vishakhapatnam",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "vizianagaram",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "west godavari",
+    "parent": "andhra pradesh"
+  },
+  {
+    "name": "bagalkot",
+    "parent": "karnataka"
+  },
+  {
+    "name": "bangalore",
+    "parent": "karnataka"
+  },
+  {
+    "name": "belgaum",
+    "parent": "karnataka"
+  },
+  {
+    "name": "bellary",
+    "parent": "karnataka"
+  },
+  {
+    "name": "bidar",
+    "parent": "karnataka"
+  },
+  {
+    "name": "bijapur",
+    "parent": "karnataka"
+  },
+  {
+    "name": "chamarajanagar",
+    "parent": "karnataka"
+  },
+  {
+    "name": "chikballapur",
+    "parent": "karnataka"
+  },
+  {
+    "name": "chikmagalur",
+    "parent": "karnataka"
+  },
+  {
+    "name": "chitradurga",
+    "parent": "karnataka"
+  },
+  {
+    "name": "dakshina kannada",
+    "parent": "karnataka"
+  },
+  {
+    "name": "devanagere",
+    "parent": "karnataka"
+  },
+  {
+    "name": "dharwad",
+    "parent": "karnataka"
+  },
+  {
+    "name": "gadag",
+    "parent": "karnataka"
+  },
+  {
+    "name": "gulbarga",
+    "parent": "karnataka"
+  },
+  {
+    "name": "hassan",
+    "parent": "karnataka"
+  },
+  {
+    "name": "haveri",
+    "parent": "karnataka"
+  },
+  {
+    "name": "kodagu",
+    "parent": "karnataka"
+  },
+  {
+    "name": "kolar",
+    "parent": "karnataka"
+  },
+  {
+    "name": "koppal",
+    "parent": "karnataka"
+  },
+  {
+    "name": "mandya",
+    "parent": "karnataka"
+  },
+  {
+    "name": "mysore",
+    "parent": "karnataka"
+  },
+  {
+    "name": "raichur",
+    "parent": "karnataka"
+  },
+  {
+    "name": "ramanagara",
+    "parent": "karnataka"
+  },
+  {
+    "name": "shimoga",
+    "parent": "karnataka"
+  },
+  {
+    "name": "tumakuru",
+    "parent": "karnataka"
+  },
+  {
+    "name": "udupi",
+    "parent": "karnataka"
+  },
+  {
+    "name": "uttara kannada",
+    "parent": "karnataka"
+  },
+  {
+    "name": "yadgir",
+    "parent": "karnataka"
+  },
+  {
+    "name": "alappuzha",
+    "parent": "kerala"
+  },
+  {
+    "name": "ernakulam",
+    "parent": "kerala"
+  },
+  {
+    "name": "idukki",
+    "parent": "kerala"
+  },
+  {
+    "name": "kannur",
+    "parent": "kerala"
+  },
+  {
+    "name": "kasaragod",
+    "parent": "kerala"
+  },
+  {
+    "name": "kollam",
+    "parent": "kerala"
+  },
+  {
+    "name": "kottayam",
+    "parent": "kerala"
+  },
+  {
+    "name": "kozhikode",
+    "parent": "kerala"
+  },
+  {
+    "name": "malappuram",
+    "parent": "kerala"
+  },
+  {
+    "name": "palakkad",
+    "parent": "kerala"
+  },
+  {
+    "name": "pathanamthitta",
+    "parent": "kerala"
+  },
+  {
+    "name": "thiruvanathapuram",
+    "parent": "kerala"
+  },
+  {
+    "name": "thrissur",
+    "parent": "kerala"
+  },
+  {
+    "name": "wayanad",
+    "parent": "kerala"
+  },
+  {
+    "name": "pune",
+    "parent": "maharashtra"
+  },
+  {
+    "name": "ariyalur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "chennai",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "coimbatore",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "cuddalore",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "dharmapuri",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "dindigul",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "erode",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "kanchipuram",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "kanniyakumari",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "karur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "krishnagiri",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "madurai",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "nagapattinam",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "the nilgiris",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "perambalur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "pudukkottai",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "ramanthapuram",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "salem",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "sivaganga",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "thanjavur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "theni",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "thoothukudi",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "thiruvarur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "thirunelveli",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "tiruchirapalli",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "thiruvallur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "tiruppur",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "tiruvannamalai",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "vellore",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "villupuram",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "virudhunagar",
+    "parent": "tamil nadu"
+  },
+  {
+    "name": "adilabad",
+    "parent": "telangana"
+  },
+  {
+    "name": "hyderabad",
+    "parent": "telangana"
+  },
+  {
+    "name": "karimnagar",
+    "parent": "telangana"
+  },
+  {
+    "name": "khammam",
+    "parent": "telangana"
+  },
+  {
+    "name": "mahbubnagar",
+    "parent": "telangana"
+  },
+  {
+    "name": "medak",
+    "parent": "telangana"
+  },
+  {
+    "name": "nalgonda",
+    "parent": "telangana"
+  },
+  {
+    "name": "nizamabad",
+    "parent": "telangana"
+  },
+  {
+    "name": "rangareddy",
+    "parent": "telangana"
+  },
+  {
+    "name": "warangal",
+    "parent": "telangana"
+  },
+  {
+    "name": "kolkata",
+    "parent" : "west bengal"
+  },
+  {
+    "name": "bapatla",
+    "parent": "guntur"
+  },
+  {
+    "name": "badami",
+    "parent": "bagalkot"
+  },
+  {
+    "name": "bilgi",
+    "parent": "bagalkot"
+  },
+  {
+    "name": "hungund",
+    "parent": "bagalkot"
+  },
+  {
+    "name": "jamkhandi",
+    "parent": "bagalkot"
+  },
+  {
+    "name": "mudhol",
+    "parent": "bagalkot"
+  },
+  {
+    "name": "anekal",
+    "parent": "bangalore"
+  },
+  {
+    "name": "devanahalli",
+    "parent": "bangalore"
+  },
+  {
+    "name": "doddaballapura",
+    "parent": "bangalore"
+  },
+  {
+    "name": "hoskote",
+    "parent": "bangalore"
+  },
+  {
+    "name": "nelamangala",
+    "parent": "bangalore"
+  },
+  {
+    "name": "athni",
+    "parent": "belgaum"
+  },
+  {
+    "name": "bailahongal",
+    "parent": "belgaum"
+  },
+  {
+    "name": "chikodi",
+    "parent": "belgaum"
+  },
+  {
+    "name": "gokak",
+    "parent": "belgaum"
+  },
+  {
+    "name": "hukkeri",
+    "parent": "belgaum"
+  },
+  {
+    "name": "khanapur",
+    "parent": "belgaum"
+  },
+  {
+    "name": "kittur",
+    "parent": "belgaum"
+  },
+  {
+    "name": "raybag",
+    "parent": "belgaum"
+  },
+  {
+    "name": "ramdurg",
+    "parent": "belgaum"
+  },
+  {
+    "name": "saundatti",
+    "parent": "belgaum"
+  },
+  {
+    "name": "hospet",
+    "parent": "bellary"
+  },
+  {
+    "name": "kampli",
+    "parent": "bellary"
+  },
+  {
+    "name": "hoovina hadagalli",
+    "parent": "bellary"
+  },
+  {
+    "name": "kudligi",
+    "parent": "bellary"
+  },
+  {
+    "name": "sanduru",
+    "parent": "bellary"
+  },
+  {
+    "name": "siruguppa",
+    "parent": "bellary"
+  },
+  {
+    "name": "aurad",
+    "parent": "bidar"
+  },
+  {
+    "name": "basavakalyan",
+    "parent": "bidar"
+  },
+  {
+    "name": "bhalki",
+    "parent": "bidar"
+  },
+  {
+    "name": "homnabad",
+    "parent": "bidar"
+  },
+  {
+    "name": "basavana bagevadi",
+    "parent": "bijapur"
+  },
+  {
+    "name": "indi",
+    "parent": "bijapur"
+  },
+  {
+    "name": "muddebihal",
+    "parent": "bijapur"
+  },
+  {
+    "name": "sindgi",
+    "parent": "bijapur"
+  },
+  {
+    "name": "gundlupet",
+    "parent": "chamarajanagar"
+  },
+  {
+    "name": "kollegal",
+    "parent": "chamarajanagar"
+  },
+  {
+    "name": "yelandur",
+    "parent": "chamarajanagar"
+  },
+  {
+    "name": "bagepalli",
+    "parent": "chikballapur"
+  },
+  {
+    "name": "chintamani",
+    "parent": "chikballapur"
+  },
+  {
+    "name": "gauribidanur",
+    "parent": "chikballapur"
+  },
+  {
+    "name": "gudibanda",
+    "parent": "chikballapur"
+  },
+  {
+    "name": "sidlaghatta",
+    "parent": "chikballapur"
+  },
+  {
+    "name": "kadur",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "koppa",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "mudigere",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "narasimharajapura",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "sringeri",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "tarikere",
+    "parent": "chikmagalur"
+  },
+  {
+    "name": "challakere",
+    "parent": "chitradurga"
+  },
+  {
+    "name": "hiriyur",
+    "parent": "chitradurga"
+  },
+  {
+    "name": "holalkere",
+    "parent": "chitradurga"
+  },
+  {
+    "name": "hosadurga",
+    "parent": "chitradurga"
+  },
+  {
+    "name": "molakalmuru",
+    "parent": "chitradurga"
+  },
+  {
+    "name": "bantwal",
+    "parent": "dakshina kannada"
+  },
+  {
+    "name": "beltangadi",
+    "parent": "dakshina kannada"
+  },
+  {
+    "name": "mangalore",
+    "parent": "dakshina kannada"
+  },
+  {
+    "name": "puttur",
+    "parent": "dakshina kannada"
+  },
+  {
+    "name": "sulya",
+    "parent": "dakshina kannada"
+  },
+  {
+    "name": "channagiri",
+    "parent": "devanagere"
+  },
+  {
+    "name": "harihar",
+    "parent": "devanagere"
+  },
+  {
+    "name": "harpanahalli",
+    "parent": "devanagere"
+  },
+  {
+    "name": "honnali",
+    "parent": "devanagere"
+  },
+  {
+    "name": "jagalur",
+    "parent": "devanagere"
+  },
+  {
+    "name": "hubli",
+    "parent": "dharwad"
+  },
+  {
+    "name": "kalghatgi",
+    "parent": "dharwad"
+  },
+  {
+    "name": "kundgol",
+    "parent": "dharwad"
+  },
+  {
+    "name": "navalgund",
+    "parent": "dharwad"
+  },
+  {
+    "name": "mundargi",
+    "parent": "gadag"
+  },
+  {
+    "name": "nargund",
+    "parent": "gadag"
+  },
+  {
+    "name": "ron",
+    "parent": "gadag"
+  },
+  {
+    "name": "shirhatti",
+    "parent": "gadag"
+  },
+  {
+    "name": "afzalpur",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "aland",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "chincholi",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "chitapur",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "jevargi",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "sedam",
+    "parent": "gulbarga"
+  },
+  {
+    "name": "alur",
+    "parent": "hassan"
+  },
+  {
+    "name": "arkalgud",
+    "parent": "hassan"
+  },
+  {
+    "name": "arsikere",
+    "parent": "hassan"
+  },
+  {
+    "name": "belur",
+    "parent": "hassan"
+  },
+  {
+    "name": "channarayapattana",
+    "parent": "hassan"
+  },
+  {
+    "name": "holenarsipur",
+    "parent": "hassan"
+  },
+  {
+    "name": "sakleshpur",
+    "parent": "hassan"
+  },
+  {
+    "name": "byadgi",
+    "parent": "haveri"
+  },
+  {
+    "name": "hangal",
+    "parent": "haveri"
+  },
+  {
+    "name": "hirekerur",
+    "parent": "haveri"
+  },
+  {
+    "name": "ranibennur",
+    "parent": "haveri"
+  },
+  {
+    "name": "savanur",
+    "parent": "haveri"
+  },
+  {
+    "name": "shiggaon",
+    "parent": "haveri"
+  },
+  {
+    "name": "madikeri",
+    "parent": "kodagu"
+  },
+  {
+    "name": "somvarpet",
+    "parent": "kodagu"
+  },
+  {
+    "name": "virajpet",
+    "parent": "kodagu"
+  },
+  {
+    "name": "bangarapet",
+    "parent": "kolar"
+  },
+  {
+    "name": "malur",
+    "parent": "kolar"
+  },
+  {
+    "name": "mulbagal",
+    "parent": "kolar"
+  },
+  {
+    "name": "srinivaspur",
+    "parent": "kolar"
+  },
+  {
+    "name": "gangawati",
+    "parent": "koppal"
+  },
+  {
+    "name": "kushtagi",
+    "parent": "koppal"
+  },
+  {
+    "name": "yelbarga",
+    "parent": "koppal"
+  },
+  {
+    "name": "alipore",
+    "parent": "kolkata"
+  },
+  {
+    "name": "bakultala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "ballygunje",
+    "parent": "kolkata"
+  },
+  {
+    "name": "ballygunje phari",
+    "parent": "kolkata"
+  },
+  {
+    "name": "batanagar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "binoy badol dinesh bag",
+    "parent": "kolkata"
+  },
+  {
+    "name": "behala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "behala chowrasta",
+    "parent": "kolkata"
+  },
+  {
+    "name": "beliaghata",
+    "parent": "kolkata"
+  },
+  {
+    "name": "belgachia",
+    "parent": "kolkata"
+  },
+  {
+    "name": "budge budge",
+    "parent": "kolkata"
+  },
+  {
+    "name": "chetla",
+    "parent": "kolkata"
+  },
+  {
+    "name": "dalhousie",
+    "parent": "kolkata"
+  },
+  {
+    "name": "deshopriyo park",
+    "parent": "kolkata"
+  },
+  {
+    "name": "dharmatala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "dum dum",
+    "parent": "kolkata"
+  },
+  {
+    "name": "entali",
+    "parent": "kolkata"
+  },
+  {
+    "name": "esplanade",
+    "parent": "kolkata"
+  },
+  {
+    "name": "hatibagan",
+    "parent": "kolkata"
+  },
+  {
+    "name": "hazra",
+    "parent": "kolkata"
+  },
+  {
+    "name": "jagu babur bajar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "joka",
+    "parent": "kolkata"
+  },
+  {
+    "name": "jorasanko",
+    "parent": "kolkata"
+  },
+  {
+    "name": "kadamtala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "kalighat",
+    "parent": "kolkata"
+  },
+  {
+    "name": "kasba",
+    "parent": "kolkata"
+  },
+  {
+    "name": "kankurgachi",
+    "parent": "kolkata"
+  },
+  {
+    "name": "karunamoyi",
+    "parent": "kolkata"
+  },
+  {
+    "name": "kidderpore",
+    "parent": "kolkata"
+  },
+  {
+    "name": "lake gardens",
+    "parent": "kolkata"
+  },
+  {
+    "name": "majherhat",
+    "parent": "kolkata"
+  },
+  {
+    "name": "mominpur",
+    "parent": "kolkata"
+  },
+  {
+    "name": "new alipore",
+    "parent": "kolkata"
+  },
+  {
+    "name": "new market",
+    "parent": "kolkata"
+  },
+  {
+    "name": "nimtala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "park street",
+    "parent": "kolkata"
+  },
+  {
+    "name": "park circus",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rabindra sadan",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rabindra sarobar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rajabajar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rajarhat",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rajdanga",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rashbehari",
+    "parent": "kolkata"
+  },
+  {
+    "name": "salt lake",
+    "parent": "kolkata"
+  },
+  {
+    "name": "sakher bajar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "sealdah",
+    "parent": "kolkata"
+  },
+  {
+    "name": "simultala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "shyam bajar",
+    "parent": "kolkata"
+  },
+  {
+    "name": "shyampur",
+    "parent": "kolkata"
+  },
+  {
+    "name": "sutanuti",
+    "parent": "kolkata"
+  },
+  {
+    "name": "tangra",
+    "parent": "kolkata"
+  },
+  {
+    "name": "taratala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "taltala",
+    "parent": "kolkata"
+  },
+  {
+    "name": "thakurpukur",
+    "parent": "kolkata"
+  },
+  {
+    "name": "tollygunje",
+    "parent": "kolkata"
+  },
+  {
+    "name": "tollygunje phari",
+    "parent": "kolkata"
+  },
+  {
+    "name": "topsia",
+    "parent": "kolkata"
+  },
+  {
+    "name": "triangular park",
+    "parent": "kolkata"
+  },
+  {
+    "name": "rome",
+    "parent": "italy"
+  },
+  {
+    "name": "comino",
+    "parent": "malta"
+  },
+  {
+    "name": "cospicua",
+    "parent": "malta"
+  },
+  {
+    "name": "filfla",
+    "parent": "malta"
+  },
+  {
+    "name": "gozo",
+    "parent": "malta"
+  },
+  {
+    "name": "marsascala",
+    "parent": "malta"
+  },
+  {
+    "name": "senglea",
+    "parent": "malta"
+  },
+  {
+    "name": "valletta",
+    "parent": "malta"
+  },
+  {
+    "name": "victoriosa",
+    "parent": "malta"
+  },
+  {
+    "name": "xaghjra",
+    "parent": "malta"
+  },
+  {
+    "name": "lisbon",
+    "parent": "spain"
+  },
+  {
+    "name": "nadur",
+    "parent": "gozo"
+  },
+  {
+    "name": "sannat",
+    "parent": "gozo"
+  },
+  {
+    "name": "xaghra",
+    "parent": "gozo"
+  }
+]
