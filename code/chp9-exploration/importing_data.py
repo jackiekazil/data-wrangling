@@ -1,5 +1,7 @@
 """
-Note: this is an iPython session walking through the beginning of Chapter 9 to import the
+Part 1 / 5
+
+Note: this is an IPython session walking through the beginning of Chapter 9 to import the
 data into `agate`. It's used as an example of stepping through ideas as you work with your
 data in iPython. It was saved using iPython %history -f importing_data.py so
 you can use it in the repository. Obviously, if you'd like to reuse bits of this
