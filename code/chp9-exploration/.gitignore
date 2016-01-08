@@ -1,0 +1,5 @@
+*.txt
+*.json
+*.xls
+*.xlsx
+print_*
