@@ -1,0 +1,689 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class=" js cssanimations"><!--
+  _______      _____ _  _ ___ ___  ___   ___ ___   _   _    
+ |_   _\ \    / /_ _| \| | __/ __|/ _ \ / __|_ _| /_\ | |   
+   | |  \ \/\/ / | || .` | _|\__ \ (_) | (__ | | / _ \| |__ 
+   |_|   \_/\_/ |___|_|\_|___|___/\___/ \___|___/_/ \_\____|
+
+Build: fd2efb9Code Environment: prod
+AWS Environment: Twine-Apps--><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" "="">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+		<title>TwineSocial: Fairphone</title>
+			
+		<link rel="stylesheet" type="text/css" media="screen" href="//apps-cdn.twinesocial.com/css-min/files/player%252Ftheme-font%252Fopen-sans+player%252Ftw-fonts.css+player%252Fbootstrap-3.1.1.min.css+player%252Ffont-awesome.min.css+player%252Ftheme-layout%252Fbase.css+player%252Fembed.css+player%252Ftheme-layout%252Fbase-modal.css+player%252Fselect2.css+player%252Fselect2-bootstrap.css+player%252Ftheme-layout%252Fclassic+player%252Ftheme-color%252Fwhite/v/2.4/t/1452107488.css">
+		<script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//apps-cdn.twinesocial.com/js-min/files/player%252Fbugsnag.js+player%252Fjquery-1.11.1.min.js+player%252Fjquery-easing-1.3.js+player%252Fjquery.timeago.js+player%252Fbootstrap-3.1.1.min.js+player%252Fisotope.pkgd.min.js+player%252Fjquery.lazy.min.js+player%252FjMinEmoji-SVG.min.js+player%252Ftheme-base.js+player%252Ftheme-base-utility.js+player%252Ftheme-base-toolbar.js+player%252Ftheme-base-fx.js+player%252Ftheme-base-manage.js+player%252FisInViewport.min.js+player%252FAnimOnScroll.js+player%252Fmodernizr.custom.js+player%252Fselect2.min.js+player%252Fhandlebars.min.js+player%252Ftheme%252Fclassic/v/2.4/t/1452107488.js"></script><style type="text/css"></style>
+		
+		
+			<meta property="twitter:site" content="@TwineSocial">
+			<meta property="twitter:site:id" content="1429387459">
+			<meta property="twitter:domain" content="twinesocial.com">
+
+							<meta property="twitter:card" content="summary">
+				<meta property="og:title" content="TwineSocial: Social Hub for Fairphone">
+				<meta property="og:description" content="Meet the Fairphone community. Share, document and upload through your own social media channels and watch along as Fairphoners start showing off their phones! #WeAreFairphone Get your own Social Media Hub at TwineSocial">
+				<meta property="og:image" content="http://static.twinesocial.com/uploads/appProfiles/3986IUR95CHD0LYJ.png">
+				<meta property="twitter:creator" content="@TwineSocial">
+				<meta property="twitter:creator:id" content="1429387459">
+				<meta property="og:url" content="http://www.twinesocial.com/fairphone">
+			
+			<meta property="og:site_name" content="Fairphone Social Hub by TwineSocial">
+			<meta property="fb:app_id" content="130316653831265">
+			<meta name="keywords" content="fairphone, social media hub, social media aggregator, best facebook widget, best instagram widget, best youtube widget, best twitter widget">
+
+		
+		<!-- start custom CSS for layout 50335 -->
+<style type="text/css" id="layoutCss">
+#wall .follows, #wall .summary-tile {
+display:none;
+}
+
+#wall * {
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+#wall {
+	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+#wall .content {
+	min-height: 200px;
+}
+#wall .footer div {
+	background-color: transparent;
+	border-top: 0px;
+}
+#wall .related {
+	display:none;
+}
+#wall .byline {
+	background-color: transparent;
+	border: none;
+}
+#wall img[data-type=profile] {
+	display:none;
+}
+#wall .footer {
+	background-color: transparent;
+	background-image: none;
+}
+
+#wall .footer i {
+	color: #28a9e0;
+}
+#wall .footer i:hover {
+	color: #ff70b1;
+}
+#wall .twine-item {
+	border-radius: 4px;
+	border: none;
+	background-color: #f2f2f2;
+}
+
+#wall .twine-item .twine-description p a.link {
+	font-weight: bold;
+}
+
+#wall .twine-item:hover .twine-description p a.link:hover {
+	color: #fff;
+}
+
+#wall .footer i,
+#wall .twine-item,
+#wall .twine-item .picture img,
+#wall .twine-item .twine-description p,
+#wall .twine-item .twine-description p a.link,
+#wall .twine-item .twine-description span.username,
+#wall .twine-item .byline .fullname,
+#wall .twine-item .picture:after
+#wall .twine-item:hover .truncate-action a {
+	-webkit-transition: all 0.2s cubic-bezier(0.35, 0, 0.35, 1);
+	-moz-transition: all 0.2s cubic-bezier(0.35, 0, 0.35, 1);
+	-ms-transition: all 0.2s cubic-bezier(0.35, 0, 0.35, 1);
+	transition: all 0.2s cubic-bezier(0.35, 0, 0.35, 1);
+}
+
+#wall .twine-item:hover .official-author-star {
+	background: url('http://fairphone.com/wp-content/themes/fairphone-v2.2/img/general/star-white.svg') no-repeat;
+}
+
+#wall .twine-item, #wall .twine-item:hover {
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.15);
+	-ms-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+#wall .twine-item:hover {
+	background-color: #28a9e0;
+}
+
+#wall .twine-item:hover .picture img {
+	/*-webkit-filter: grayscale(0) brightness(1) contrast(1);*/
+
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#wall .twine-item:hover .picture:after {
+	/*opacity: 1;*/
+	border-color: #28a9e0;
+}
+
+#wall .twine-item:hover .twine-description p,
+#wall .twine-item:hover .twine-description p a.link,
+#wall .twine-item:hover .twine-description span.username,
+#wall .twine-item:hover .byline .fullname {
+	color: #fff;
+}
+
+#wall .twine-item:hover .footer i {
+	color: #fff;
+}
+
+#wall .twine-item:hover .truncate-action a {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+#wall .impression-box {
+	display:none;
+}
+#wall .pull-right{
+	float:none !important;
+}
+/* Added by Twine to preserve old defaults */
+#wall .logo-wrapper {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border-radius: 50%;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	border: 1px solid #EEE;
+	padding-top: 0px;
+	background-color: #FFF;
+}
+/*
+#wall .byline .fullname {
+	color: #28a9e0;
+}
+*/
+
+/*
+#wall .byline .fullname:hover {
+	color: #ff70b1;
+}
+*/
+#wall .logo-wrapper {
+	border-color:#e2e2e2;
+	top: 9px;
+	right: 10px;
+}
+#wall .logo-wrapper i {
+	font-size: 20px;
+	line-height: 28px;
+	color: #28a9e0;
+}
+
+#wall .logo-wrapper i:hover {
+	color: #ff70b1;
+}
+
+#wall .logo-wrapper:after {
+	border: none;
+}
+#wall .twine-item .when {
+	font-size: 9px;
+	text-transform: uppercase;
+	/*font-weight: lighter;*/
+	padding-bottom: 0;
+	position: absolute;
+	right: 15px;
+	bottom: 12px;
+	/* color: #999; */
+	color: rgba(0, 0, 0, 0.35);
+}
+#wall .twine-item .when a {
+	font-size: 9px;
+	/*font-weight: lighter;*/
+	color: inherit;
+}
+
+#wall .twine-item.official-author .when {
+	/*color: #fff;*/
+	right: 55px;
+}
+
+#wall span.hashtag {
+	color: #28a9e0;
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 1px 4px;
+}
+
+#wall .twine-description.small p {
+	font-size: 15px;
+	/*font-weight:lighter;*/
+	display: inline-block;
+}
+
+#wall .truncate-action {
+	font-size: 15px;
+	/*font-weight: lighter; */
+	color: #28a9e0;
+	display: inline-block;
+}
+#wall .truncate-action a {
+	/* font-weight:lighter; */
+	font-weight: bold;
+}
+#wall .truncate-action:hover {
+	color: #ff70b1
+}
+
+#wall .twine-description p, .twine-description div.input-group {
+	font-size: 15px;
+	/* font-weight: lighter; */
+}
+
+#wall .quotes {
+	padding-top:0
+}
+
+#wall .content a {
+	font-size:15px;
+	/* font-weight:lighter; */
+}
+
+#wall .twine-item.twine-item-2x .twine-description, .twine-item.twine-item-2x .twine-description p {
+	font-size: 15px;
+	/*font-weight:lighter; */
+}
+
+#wall .official-author-star {
+	display:block;
+	position: absolute;
+	top: auto;
+	bottom:0;
+	right:0;
+	width:64px;
+	height: 65px;
+	background: url('http://fairphone.com/wp-content/themes/fairphone-v2.2/img/general/star.svg') no-repeat;
+}
+
+#wall .official-author-star .fa {
+	display:none;
+}
+
+#wall .content a[data-href], .footer a, provider a {
+	color: #28a9e0;
+}
+#wall .content a[data-href]:hover, .footer a:hover, provider a:hover {
+	color: #ff70b1;
+}
+
+#wall .twine-item .picture {
+	position: relative;
+	margin-bottom: 15px;
+	/*box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.35);*/
+}
+
+#wall .twine-item .picture img {
+/*
+	-webkit-filter: grayscale(1) brightness(1.25) contrast(1.25);
+	opacity: 0.25;
+*/
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+#wall .twine-item .picture:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	/*opacity: 0;*/
+	pointer-events: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.theme-color-white .twine-item-border {
+	border: none;
+	background-color: transparent;
+	background: transparent;	
+}</style>
+<!-- end custom CSS -->
+	 	 	
+
+<script>
+var languages = {"fr":{"culture":"fr","country":"US","posted":"Post\u00e9","loading":"chargement","loadingFrom":"plus de TwineSocial","readMore":"En savoir plus","loadMore":"Chargez Plus","viewOn":"Voir sur","viewOriginal":"Voir l'original","follow":"Suivre","followOn":"Follow on","twitter":{"reply":"R\u00e9pondre \u00e0 Tweet","retweet":"Retweet this Post","favorite":"Favorite Publier sur Twitter","tweet":"Twitter cette annonce"},"facebook":{"share":"Comme sur Facebook"},"google":{"share":"Partager sur Google+"},"pinterest":{"pin":"Epingler ce message"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}},"en":{"culture":"en","country":"US","posted":"Posted","loading":"loading","loadingFrom":"more from TwineSocial","readMore":"Read More","loadMore":"Load More","viewOn":"View on","viewOriginal":"View original","follow":"Follow","followOn":"Follow on","twitter":{"reply":"Reply to Tweet","retweet":"Retweet this Post","favorite":"Favorite Post on Twitter","tweet":"Tweet this Post"},"facebook":{"share":"Like on Facebook"},"google":{"share":"Share on Google+"},"pinterest":{"pin":"Pin this Post"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}},"es":{"culture":"es","country":"US","posted":"Publicado","loading":"Cargando","loadingFrom":"M\u00e1s de TwineSocial","readMore":"Leer m\u00e1s","loadMore":"Cargar m\u00e1s","viewOn":"Ver en","viewOriginal":"Ver original","follow":"Seguir","followOn":"Follow on","twitter":{"reply":"Responder a Tweet","retweet":"Retwittear este post","favorite":"Post favorito en Twitter","tweet":"Twittear este post"},"facebook":{"share":"Me gusta en Facebook"},"google":{"share":"Compartir en Google+"},"pinterest":{"pin":"Pinear este post"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}},"it":{"culture":"it","country":"US","posted":"Pubblicato","loading":"caricamento","loadingFrom":"di pi\u00f9 da TwineSocial","readMore":"Read More","loadMore":"Carica di pi\u00f9","viewOn":"Visualizza su","viewOriginal":"Visualizza originale","follow":"seguire","followOn":"Follow on","twitter":{"reply":"Rispondi a Tweet","retweet":"Retweet questo post","favorite":"Posta Favorite su Twitter","tweet":"Tweet questo post"},"facebook":{"share":"Come su Facebook"},"google":{"share":"Condividi su Google+"},"pinterest":{"pin":"Pin questo post"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}},"sv":{"culture":"sv","country":"US","posted":"Publicerat","loading":"laddar","loadingFrom":"mer fr\u00e5n TwineSocial","readMore":"L\u00e4s mer","loadMore":"visa fler","viewOn":"Visa p\u00e5","viewOriginal":"Visa original","follow":"F\u00f6lj","followOn":"Follow on","twitter":{"reply":"Retweeta inl\u00e4gget","retweet":"Retweet detta inl\u00e4gg","favorite":"Favorit Posta p\u00e5 Twitter","tweet":"Tweeta inl\u00e4gget"},"facebook":{"share":"Gilla p\u00e5 Facebook"},"google":{"share":"Dela p\u00e5 Google+"},"pinterest":{"pin":"N\u00e5la inl\u00e4gget"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}},"de":{"culture":"de","country":"US","posted":"Publiziert","loading":"Wird geladen","loadingFrom":"Mehr von TwineSocial","readMore":"Weiterlesen","loadMore":"Mehr laden","viewOn":"Ansehen auf","viewOriginal":"Original ansehen","follow":"folgen","followOn":"Follow on","twitter":{"reply":"Auf Tweet antworten","retweet":"Beitrag retweeten","favorite":"Tweet favorisieren","tweet":"Beitrag tweeten"},"facebook":{"share":"Like auf Facebook"},"google":{"share":"Auf Google+ teilen"},"pinterest":{"pin":"Dieses Thema anpinnen"},"timeago":{"prefixAgo":" ","prefixFromNow":" ","suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years"}}};
+</script><script type="text/javascript">
+
+	Bugsnag.apiKey = "54ad36b4c05f31758e5a1d8b284a81eb";
+
+	
+	Twine.customJs = {
+			}
+
+	Twine.settings = {
+		appBaseUrl: "fairphone",
+		absoluteBase: "//apps.twinesocial.com/player/",
+		moderator: false,
+		eh: "https://www.fairphone.com/we-are-fairphone/",
+		embedded: true,
+		environment: "prod",
+		referer: "https://www.google.com/",
+		accountStatus: 1,
+		infinitescroll: true,
+		postId: "",
+		twFront: "http://www.twinesocial.com/",
+		hostLinkPrefix: "",
+		height: "",
+		nativeSharingLinks: false,
+		debug: false,
+		brandingLevel: 3,
+		transitionDuration: ".5s",
+		token: "MjAxODY1MjU3Njk5",
+		authenticated: false,
+		googleAnalyticsProfileId: "",
+		iFrameTarget: "none",
+		tileBackgroundImage: null,
+		shareText: null,
+		themeFont: "open-sans",
+		pushNotify: "1",
+		themeColor: "white",
+		themeLayout: "classic",
+		layoutId: "50335",
+		culture: "en",
+		modalInParent: "",
+		hideModal: "",
+		collection: "null",
+		pusherKey: "7686f91ffa51daedac98",
+		hasMediaMetrics: parseInt("0"),
+		hasTags: parseInt("0"),
+		hasPostCreator: 0,
+		isVotable: 0,
+		showVoteCount: 0,
+ 		appStrings: JSON.parse('[]'),
+	};
+
+		if (languages[Twine.settings.culture]) {
+		lang = languages[Twine.settings.culture];
+		jQuery.timeago.settings.strings = lang.timeago;
+	} else {
+		console.log ("TwineSocial: Invalid language " + Twine.settings.culture + " defined. Defaulting to en.");
+		lang = languages["en"];
+	}
+	jQuery.timeago.settings.allowFuture = true;
+
+	</script><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow-x:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+
+  
+
+
+
+<body class="theme-color-white theme-layout-classic theme-font-open-sans embedded  " data-pinterest-extension-installed="cr1.39.1">
+
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Facebook Cross Domain Communication Frame" aria-hidden="true" tabindex="-1" id="fb_xdm_frame_https" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f19068aa84&amp;origin=https%3A%2F%2Fapps.twinesocial.com" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+	<a class="homeLink" target="_blank" href="http://www.twinesocial.com/blog/ultimate-social-media-wall/">ultimate social media wall</a>
+	<a class="homeLink" target="_blank" href="http://www.twinesocial.com">Powered by TwineSocial</a>
+	
+
+		
+		
+
+		<!-- start: Twine Parent Container -->
+		<div class="container-fluid" id="twine-parent">
+
+			
+			<div id="twine-more" class="row" style="display:none;">
+				<div><a onclick="Twine.ReloadWall({collectionId:Twine.settings.collection});">load <span id="post-cnt"></span> new post<span id="post-suffix">s</span></a></div>
+			</div>
+
+			<div class="row">
+
+				<!-- start: items -->
+				<div id="wall" class="row" style="position: relative; height: 2926.51px;">
+					<div class="grid-sizer"></div>
+					<div class="gutter-sizer"></div>
+				<div data-id="95166749" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-1 official-author layout-full layout-full" style="position: absolute; left: 0px; top: 0px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95166749" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div class="official-author-star"><i class="fa fa-star"></i></div><div data-id="95166749" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/466515227559751680/Cwsh3LYn_normal.png" style="display: block;"><div class="fullname">Fairphone</div><div class="name">@Fairphone</div></div></div><div class="twine-description "><p>Homes of Fairphones.
+Thank you for sharing Mr Benn!
+
+<span class="hashtag">#WeAreFairphone</span> <a class="link" data-action="View" data-id="95166749" data-href="https://t.co/1lelXfdSqq" data-original-title="" title="">twitter.com/BL_Translation…</a></p></div><div class="related media-type-2"><div data-id="95166743" class="related-content"><div class="picture"><a data-id="95166743" data-parent-id="95166749" data-relation="child" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.33333333333331%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95166743" data-manage-metrics="true" height="960" width="720" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYNLE2KWkAAe_ST.jpg:large" style="display: block;"></div></a></div><div class="twine-title"><p>Mr Benn on Twitter</p></div><div class="twine-description small"><p><span class="username">@Fairphone</span> pic.twitter.com/uiaalFO7yl</p></div></div></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95166749" data-href="https://twitter.com/Fairphone/status/685474520644370432" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T14:53:55.000Z">about an hour ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95166749" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95166749" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95166749" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div id="k04wn67ds4i" class="twine-item follows twitter" data-type="ours" data-follow-id="2771" style="position: absolute; left: 276px; top: 0px; opacity: 1; transform: scale(1); transition-property: transform, opacity; transition-duration: 0.5s;"><div class="twine-item-border"><div class="content"><div class="col-sm-12"><div class="profile"><div class=" img-wrapper"><img class="img-thumbnail" src="http://pbs.twimg.com/profile_images/466515227559751680/Cwsh3LYn_normal.png" style="display: block;"></div></div><div class="name">Fairphone</div><div class="subtitle">Follow on Twitter</div></div></div><div class="footer"><iframe allowtransparency="true" frameborder="0" border="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=Fairphone&amp;lang=en" style="width:230px; height:20px;"></iframe></div></div></div><div data-id="95166754" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-1 official-author layout-full layout-full" style="position: absolute; left: 276px; top: 0px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95166754" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div class="official-author-star"><i class="fa fa-star"></i></div><div data-id="95166754" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/466515227559751680/Cwsh3LYn_normal.png" style="display: block;"><div class="fullname">Fairphone</div><div class="name">@Fairphone</div></div></div><div class="twine-description "><p>Look, it is the new home and owner of a Fairphone 2. 
+Thnx for sharing!
+<span class="hashtag">#WeAreFairphone</span> <a class="link" data-action="View" data-id="95166754" data-href="https://t.co/SCuThADCbo" data-original-title="" title="">twitter.com/ReginaMoeve/st…</a></p></div><div class="related media-type-2"><div data-id="95166752" class="related-content"><div class="picture"><a data-id="95166752" data-parent-id="95166754" data-relation="child" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.30078125%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95166752" data-manage-metrics="true" height="1365" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYM_ahdWcAArnX-.jpg:large" style="display: block;"></div></a></div><div class="twine-title"><p>Regina @Moeve on Twitter</p></div><div class="twine-description small"><p><span class="username">@Fairphone</span> pic.twitter.com/M9TT6Mb3BA</p></div></div></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95166754" data-href="https://twitter.com/Fairphone/status/685472303891767296" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T14:45:07.000Z">about an hour ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95166754" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95166754" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95166754" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95166758" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 552px; top: 0px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95166758" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95166758" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/378800000730734673/3bb73917d9f49b9531798b5f1c7dc5a6_normal.jpeg" style="display: block;"><div class="fullname">Philipp SchneideꝚ</div><div class="name">@phschn</div></div></div><div class="picture"><a data-id="95166758" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.43108504398828%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95166758" data-manage-metrics="true" height="1365" width="1023" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYNEVgvWsAA-b3k.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>I really like my new <span class="username">@Fairphone</span> <span class="hashtag">#WeAreFairphone</span> <span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/6.svg);"></span>But it's still suppressed<span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/32.svg);"></span> <span class="hashtag">#FreeYourAndroid</span> <a class="link" data-action="View" data-id="95166758" data-href="https://t.co/Tz87gYiqVk" data-original-title="" title="">fsfe.org/campaigns/andr…</a> <a class="link" data-action="View" data-id="95166758" data-href="https://t.co/pPxvSXNfuL" data-original-title="" title="">https://t.co/pPxvSXNfuL</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95166758" data-href="https://twitter.com/phschn/status/685466706496610305" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T14:22:52.000Z">about an hour ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95166758" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95166758" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95166758" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95163142" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-0 layout-full layout-full" style="position: absolute; left: 0px; top: 251px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95163142" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95163142" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/1158081100/Unbenannt1_normal.JPG" style="display: block;"><div class="fullname">Markus Zielinski</div><div class="name">@Zille78</div></div></div><div class="twine-description "><p>Is it possible to connect <span class="username">@Fairphone</span> with my <span class="username">@Garmin</span> Fenix 2 via Bluetooth? <span class="hashtag">#Fenix2</span> <span class="hashtag">#WeAreFairphone</span></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95163142" data-href="https://twitter.com/Zille78/status/685459810427469824" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T13:55:28.000Z">about 2 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95163142" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95163142" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95163142" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95163155" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 official-author layout-full layout-full" style="position: absolute; left: 276px; top: 251px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95163155" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div class="official-author-star"><i class="fa fa-star"></i></div><div data-id="95163155" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/466515227559751680/Cwsh3LYn_normal.png" style="display: block;"><div class="fullname">Fairphone</div><div class="name">@Fairphone</div></div></div><div class="picture"><a data-id="95163155" data-action="View" data-original-title="" title=""><div style="padding-bottom:108.64197530864197%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95163155" data-manage-metrics="true" height="528" width="486" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYM7ne-WAAAa6Pw.png:large" style="display: block;"></div></a></div><div class="twine-description "><p>We’re sending Fairphones 2’s all over Europe. 
+Can you share a picture from their new home?
+<span class="hashtag">#WeAreFairphone</span> <a class="link" data-action="View" data-id="95163155" data-href="https://t.co/eoCu9Z4aQj" data-original-title="" title="">https://t.co/eoCu9Z4aQj</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95163155" data-href="https://twitter.com/Fairphone/status/685457515648299009" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T13:46:21.000Z">about 2 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95163155" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95163155" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95163155" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95142078" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-0 layout-full layout-full" style="position: absolute; left: 0px; top: 502px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95142078" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95142078" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/483314022843162624/wc_j8KPf_normal.jpeg" style="display: block;"><div class="fullname">literally Niklas</div><div class="name">@NiklasMM</div></div></div><div class="twine-description "><p>My <span class="username">@Fairphone</span> order's status is "Prepare batch". Does that mean it's time to get excited? :) <span class="hashtag">#wearefairphone</span></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95142078" data-href="https://twitter.com/NiklasMM/status/685364630810656768" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T07:37:16.000Z">about 8 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95142078" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95142078" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95142078" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95142189" data-feed-id="17720" class="twine-item data media-type-2 media-source-Instagram image-count-1 layout-full layout-full" style="position: absolute; left: 552px; top: 622px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper instagram"><a data-id="95142189" data-href="http://instagram.com" data-action="View" data-original-title="" title=""><i class="fa fa-instagram"></i></a></div><div class="content"><div data-id="95142189" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-19/s150x150/10453975_1648424128744901_1463845024_a.jpg" style="display: block;"><div class="fullname">Yann</div><div class="name">@yanntlse</div></div></div><div class="picture"><a data-id="95142189" data-action="View" data-original-title="" title=""><div style="padding-bottom:99.84375%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95142189" data-manage-metrics="true" height="639" width="640" data-hide-tile-if-broken="true" src="https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-15/s640x640/sh0.08/e35/924784_822978604477546_1310067450_n.jpg" style="display: block;"></div></a></div><div class="twine-description "><p> <span class="hashtag">#goodmorning</span> <span class="hashtag">#Toulouse</span> ! <span class="hashtag">#dawn</span> <span class="hashtag">#sunrise</span> <span class="hashtag">#hotelduGrandBalcon</span> <span class="hashtag">#GrandBalcon</span> <span class="hashtag">#SaintExupery</span> Place du <span class="hashtag">#Capitole</span> <span class="hashtag">#bonjour</span> ! <span class="hashtag">#wearefairphone</span> <span class="hashtag">#fairphone</span> <span class="hashtag">#nofilter</span></p></div></div><div class="when"><i class="fa fa-instagram"></i> <a data-action="View" data-id="95142189" data-href="https://www.instagram.com/p/BARRWujza7T/" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T07:34:59.000Z">about 8 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Share" data-target="Facebook" data-id="95142189" data-original-title="Like on Facebook"><i class="fa fa-facebook"></i></a><a title="" data-action="Tweet" data-id="95142189" data-original-title="Tweet this Post"><i class="fa fa-twitter"></i></a><a title="" data-action="Share" data-target="GooglePlus" data-id="95142189" data-original-title="Share on Google+"><i class="fa fa-google-plus"></i></a><a title="" data-action="Pin" data-id="95142189" data-original-title="Pin this Post"><i class="fa fa-pinterest"></i></a><a class="pull-right" title="" data-href="https://www.instagram.com/p/BARRWujza7T/" +="" data-action="View" data-id="95142189" data-original-title="View original"><i class="fa fa-external-link"></i></a></div></div></div></div><div data-id="95137906" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 0px; top: 753px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95137906" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95137906" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/582649469788905475/YVK8JBHK_normal.png" style="display: block;"><div class="fullname">Do███ Sch████</div><div class="name">@dosch</div></div></div><div class="picture"><a data-id="95137906" data-action="View" data-original-title="" title=""><div style="padding-bottom:177.734375%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95137906" data-manage-metrics="true" height="1820" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYLaGj6WMAAoLiu.png:large" style="display: block;"></div></a></div><div class="twine-description "><p>My Fairphone is 00 weeks, 00 days, 04 hours old! Jaj! <span class="hashtag">#wearefairphone</span> <a class="link" data-action="View" data-id="95137906" data-href="https://t.co/acJ2Yv08Dg" data-original-title="" title="">https://t.co/acJ2Yv08Dg</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95137906" data-href="https://twitter.com/dosch/status/685349903502041088" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-08T06:38:44.000Z">about 9 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95137906" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95137906" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95137906" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95055530" data-feed-id="17720" class="twine-item data media-type-2 media-source-Instagram image-count-1 layout-full layout-full" style="position: absolute; left: 276px; top: 779px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper instagram"><a data-id="95055530" data-href="http://instagram.com" data-action="View" data-original-title="" title=""><i class="fa fa-instagram"></i></a></div><div class="content"><div data-id="95055530" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-19/s150x150/11849209_834804233285020_1961336673_a.jpg" style="display: block;"><div class="fullname">Anna <span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/172.svg);"></span><span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/171.svg);"></span></div><div class="name">@anni7992</div></div></div><div class="picture"><a data-id="95055530" data-action="View" data-original-title="" title=""><div style="padding-bottom:125%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95055530" data-manage-metrics="true" height="800" width="640" data-hide-tile-if-broken="true" src="https://scontent.cdninstagram.com/hphotos-xta1/t51.2885-15/sh0.08/e35/p640x640/12383218_1663717967234616_448850329_n.jpg" style="display: block;"></div></a></div><div class="twine-description "><p><span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/321.svg);"></span> <span class="hashtag">#fairphone</span> <span class="hashtag">#wearefairphone</span> <span class="hashtag">#finally</span> <span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/119.svg);"></span>🏻❣</p></div></div><div class="when"><i class="fa fa-instagram"></i> <a data-action="View" data-id="95055530" data-href="https://www.instagram.com/p/BAQHxDnzb6L/" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T20:51:57.000Z">about 19 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Share" data-target="Facebook" data-id="95055530" data-original-title="Like on Facebook"><i class="fa fa-facebook"></i></a><a title="" data-action="Tweet" data-id="95055530" data-original-title="Tweet this Post"><i class="fa fa-twitter"></i></a><a title="" data-action="Share" data-target="GooglePlus" data-id="95055530" data-original-title="Share on Google+"><i class="fa fa-google-plus"></i></a><a title="" data-action="Pin" data-id="95055530" data-original-title="Pin this Post"><i class="fa fa-pinterest"></i></a><a class="pull-right" title="" data-href="https://www.instagram.com/p/BAQHxDnzb6L/" +="" data-action="View" data-id="95055530" data-original-title="View original"><i class="fa fa-external-link"></i></a></div></div></div></div><div data-id="95040126" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 552px; top: 1171px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95040126" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95040126" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/1815806210/100_7461_redimensionar_normal.JPG" style="display: block;"><div class="fullname">DavidQuiñonesMiranda</div><div class="name">@DQuinonesM</div></div></div><div class="picture"><a data-id="95040126" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.30078125%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95040126" data-manage-metrics="true" height="1365" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYIk6q4UEAASSEs.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>Opening the packaging. What do you see?
+The really important, the inside.
+<span class="hashtag">#wearefairphone</span> <a class="link" data-action="View" data-id="95040126" data-href="https://t.co/DkZHHe64oc" data-original-title="" title="">https://t.co/DkZHHe64oc</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95040126" data-href="https://twitter.com/DQuinonesM/status/685151190485741570" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T17:29:07.000Z">about 22 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95040126" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95040126" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95040126" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95040127" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 276px; top: 1298px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95040127" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95040127" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/1815806210/100_7461_redimensionar_normal.JPG" style="display: block;"><div class="fullname">DavidQuiñonesMiranda</div><div class="name">@DQuinonesM</div></div></div><div class="picture"><a data-id="95040127" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.30078125%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95040127" data-manage-metrics="true" height="1365" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYIklQRUsAAvfIf.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>The packaging is impressive!
+All made of recyclable paper!
+Really nice!
+<span class="hashtag">#WeAreFairPhone</span> <a class="link" data-action="View" data-id="95040127" data-href="https://t.co/aPj7PF8iAV" data-original-title="" title="">https://t.co/aPj7PF8iAV</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95040127" data-href="https://twitter.com/DQuinonesM/status/685150620412674048" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T17:26:52.000Z">about 22 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95040127" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95040127" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95040127" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div id="k7xyut2zkt9" class="twine-item follows facebook" data-type="ours" data-follow-id="3076" style="position: absolute; left: 0px; top: 1439px; opacity: 1; transform: scale(1); transition-property: transform, opacity; transition-duration: 0.5s;"><div class="twine-item-border"><div class="content"><div class="col-sm-12"><div class="profile"><div class=" img-wrapper"><img class="img-thumbnail" src="http://graph.facebook.com/106482829406626/picture" style="display: block;"></div></div><div class="name">Fairphone</div><div class="subtitle">Follow on Facebook</div></div></div><div class="footer"><fb:like href="http://www.facebook.com/Fairphone" send="false" data-width="230" show_faces="false" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=130316653831265&amp;container_width=0&amp;href=http%3A%2F%2Fwww.facebook.com%2FFairphone&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=230"><span style="vertical-align: bottom; width: 230px; height: 28px;"><iframe name="f1b5f4fffc" width="230px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.3/plugins/like.php?app_id=130316653831265&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df351376e14%26domain%3Dapps.twinesocial.com%26origin%3Dhttps%253A%252F%252Fapps.twinesocial.com%252Ff19068aa84%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.facebook.com%2FFairphone&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=230" class="" style="border: none; visibility: visible; width: 230px; height: 28px;"></iframe></span></fb:like></div></div></div><div data-id="95040128" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 0px; top: 1439px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95040128" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95040128" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/1815806210/100_7461_redimensionar_normal.JPG" style="display: block;"><div class="fullname">DavidQuiñonesMiranda</div><div class="name">@DQuinonesM</div></div></div><div class="picture"><a data-id="95040128" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.30078125%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95040128" data-manage-metrics="true" height="1365" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYIi6tUWkAAs6Y-.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>What's this!
+Oh! My FairPhone has arrived!!
+<span class="hashtag">#WeAreFairPhone</span>
+<span class="username">@lapoliticayyo</span> <a class="link" data-action="View" data-id="95040128" data-href="https://t.co/wluvorNlMP" data-original-title="" title="">https://t.co/wluvorNlMP</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95040128" data-href="https://twitter.com/DQuinonesM/status/685150093108973568" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T17:24:46.000Z">about 22 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95040128" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95040128" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95040128" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95040130" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 552px; top: 1741px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95040130" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95040130" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/603619754637697024/K-6C1XTN_normal.jpg" style="display: block;"><div class="fullname">Stefan Brand</div><div class="name">@StefaBrand</div></div></div><div class="twine-description "><p>Want to take apart the <span class="hashtag">#Fairphone2</span> + live in <span class="hashtag">#Vienna?</span> On Sat you have the chance, join us! :D Info: <a class="link" data-action="View" data-id="95040130" data-href="https://t.co/UANfZLFYB1" data-original-title="" title="">forum.fairphone.com/t/de-gb-austri…</a> <span class="hashtag">#WeAreFairphone</span></p></div><div class="related media-type-2"><div data-id="95040129" class="related-content"><div class="picture"><a data-id="95040129" data-parent-id="95040130" data-relation="child" data-action="View" data-original-title="" title=""><div style="padding-bottom:75%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95040129" data-manage-metrics="true" height="2736" width="3648" data-hide-tile-if-broken="true" src="https://forum.fairphone.com/uploads/default/1337/b326f5508052a668.jpg" style="display: block;"></div></a></div><div class="twine-title"><p>:de: :gb: Austrian Fairphoners</p></div><div class="twine-description small"><p>Willkommen bei den Austrian Fairphoners [:gb:] Welcome to the Austrian Fairphoners. Scroll to the bottom of this post to see an english summary. Wer sind wir? [image] <span class="username">@Stefan</span> (erster von links), <span class="username">@paulkreuzer</span> (rechts dahinter), <span class="username">@EvaS</span> (vorne mittig mit dem Fairphone Shirt in der Hand) Wenn ihr über unsere Events informiert werden wollt, dann schreibt uns doch eine E-Mail.</p></div></div></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95040130" data-href="https://twitter.com/StefaBrand/status/685145178575908864" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T17:05:14.000Z">about 23 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95040130" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95040130" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95040130" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95034611" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 276px; top: 1868px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95034611" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95034611" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/637257819989876736/sq9GO3r-_normal.jpg" style="display: block;"><div class="fullname">Christopher Bond</div><div class="name">@chris_h_bond</div></div></div><div class="picture"><a data-id="95034611" data-action="View" data-original-title="" title=""><div style="padding-bottom:55.859375%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95034611" data-manage-metrics="true" height="572" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYIcvB4WcAAblvl.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>It has arrived! Can't wait to start using the new <span class="hashtag">#Fairphone2,it's</span> beautifully packaged <span class="username">@Fairphone.</span> <span class="hashtag">#wearefairphone</span> <a class="link" data-action="View" data-id="95034611" data-href="https://t.co/xBkLAIivJX" data-original-title="" title="">https://t.co/xBkLAIivJX</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95034611" data-href="https://twitter.com/chris_h_bond/status/685141711136407553" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T16:51:27.000Z">about 23 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95034611" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95034611" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95034611" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95035037" data-feed-id="65661" class="twine-item data media-type-1 media-source-Facebook image-count-1 official-author layout-full layout-full" style="position: absolute; left: 552px; top: 1993px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper facebook"><a data-id="95035037" data-href="http://facebook.com" data-action="View" data-original-title="" title=""><i class="fa fa-facebook"></i></a></div><div class="content"><div class="official-author-star"><i class="fa fa-star"></i></div><div data-id="95035037" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://graph.facebook.com/106482829406626/picture" style="display: block;"><div class="fullname">Fairphone</div><div class="name">@106482829406626</div></div></div><div class="twine-description "><p>Recent Contact, Edge Swipe and Privacy Impact.
+
+Just a few of the improvements we made to Android for the Fairphone 2.
+
+Tell us which one you like or use the most!</p></div><div class="related media-type-2"><div data-id="95035036" data-parent-id="95035037" data-relation="child" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://graph.facebook.com/106482829406626/picture" style="display: block;"><span class="fullname">Fairphone</span><br><span class="name">@106482829406626</span></div></div><div data-id="95035036" class="related-content"><div class="picture"><a data-id="95035036" data-parent-id="95035037" data-relation="child" data-action="View" data-original-title="" title=""><div style="padding-bottom:64.1%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95035036" data-manage-metrics="true" height="641" width="1000" data-hide-tile-if-broken="true" src="https://external.xx.fbcdn.net/safe_image.php?d=AQAyK4L7RHlBjZuw&amp;url=https%3A%2F%2Fscontent-lhr3-1.xx.fbcdn.net%2Fhphotos-xtp1%2Ft31.0-8%2F12419359_935052883216279_2083799350977832013_o.jpg" style="display: block;"></div></a></div><div class="twine-title"><p>Software features of the Fairphone 2 | Fairphone</p></div><div class="twine-description small"><p>Now that the Fairphone 2 is in the hands of our first owners, we want to give the entire community a peek into Fairphone's own flavor of the operating system based on the foundation of Android<span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/768.svg);"></span> 5.1 Lollipop. The Fairphone 2 has all the bells and whistles of the regular Android experience with Google apps and the Google Play<span class="em" style="background:url(//apps-cdn.twinesocial.com/images/emoji/768.svg);"></span> store.</p></div></div></div></div><div class="when"><i class="fa fa-facebook"></i> <a data-action="View" data-id="95035037" data-href="https://www.fairphone.com/2016/01/07/software-features-fairphone-2/" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T16:36:31.000Z">about 23 hours ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Share" data-target="Facebook" data-id="95035037" data-original-title="Like on Facebook"><i class="fa fa-facebook"></i></a><a title="" data-action="Tweet" data-id="95035037" data-original-title="Tweet this Post"><i class="fa fa-twitter"></i></a><a title="" data-action="Share" data-target="GooglePlus" data-id="95035037" data-original-title="Share on Google+"><i class="fa fa-google-plus"></i></a><a title="" data-action="Pin" data-id="95035037" data-original-title="Pin this Post"><i class="fa fa-pinterest"></i></a><a class="pull-right" title="" data-href="https://www.fairphone.com/2016/01/07/software-features-fairphone-2/" +="" data-action="View" data-id="95035037" data-original-title="View original"><i class="fa fa-external-link"></i></a></div></div></div></div><div data-id="95028813" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 0px; top: 2009px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95028813" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95028813" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/666604230711619585/JLEZOSQc_normal.jpg" style="display: block;"><div class="fullname">Carola Schirmer</div><div class="name">@CaroSchirmer</div></div></div><div class="picture"><a data-id="95028813" data-action="View" data-original-title="" title=""><div style="padding-bottom:56.25%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95028813" data-manage-metrics="true" height="576" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYIFfyZWEAED58I.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>Mine arrived! <span class="hashtag">#wearefairphone</span>
+Ethical ranking of smartphones:
+<a class="link" data-action="View" data-id="95028813" data-href="https://t.co/QMxWNNP1BX" data-original-title="" title="">ethicalconsumer.org/buyersguides/p…</a> <a class="link" data-action="View" data-id="95028813" data-href="https://t.co/RWMQlJRhXp" data-original-title="" title="">https://t.co/RWMQlJRhXp</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95028813" data-href="https://twitter.com/CaroSchirmer/status/685116332770246656" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T15:10:37.000Z">a day ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95028813" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95028813" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95028813" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95021016" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 552px; top: 2245px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95021016" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95021016" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/458319244128550912/9Ee4Ay0p_normal.jpeg" style="display: block;"><div class="fullname">evy cuypers</div><div class="name">@TheCignalu</div></div></div><div class="twine-description "><p>good things come to thos who wait :) Fairphone 2 production and delivery countdown! | <a class="link" data-action="View" data-id="95021016" data-href="https://t.co/iY4QngaqQz" data-original-title="" title="">fairphone.com/2015/12/10/fai…</a> <span class="hashtag">#wearefairphone</span></p></div><div class="related media-type-2"><div data-id="95021014" class="related-content"><div class="picture"><a data-id="95021014" data-parent-id="95021016" data-relation="child" data-action="View" data-original-title="" title=""><div style="padding-bottom:66.7%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95021014" data-manage-metrics="true" height="667" width="1000" data-hide-tile-if-broken="true" src="https://www.fairphone.com/wp-content/uploads/2015/12/Rhenus-newsletter.jpg" style="display: block;"></div></a></div><div class="twine-description small"><p>In this blog post, we will gather all production and delivery news and update this blog three times a week on Monday, Wednesday and Friday. Updated: Wednesday 6 January Shipment is continuing steadily with 4,000 total phones shipped to Fairphone 2 owners as of today.</p></div></div></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95021016" data-href="https://twitter.com/TheCignalu/status/685096672368705536" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T13:52:29.000Z">a day ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95021016" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95021016" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95021016" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95013810" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 official-author layout-full layout-full" style="position: absolute; left: 276px; top: 2259px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95013810" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div class="official-author-star"><i class="fa fa-star"></i></div><div data-id="95013810" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/466515227559751680/Cwsh3LYn_normal.png" style="display: block;"><div class="fullname">Fairphone</div><div class="name">@Fairphone</div></div></div><div class="picture"><a data-id="95013810" data-action="View" data-original-title="" title=""><div style="padding-bottom:57.99999999999999%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95013810" data-manage-metrics="true" height="580" width="1000" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYHUgDaWEAA5lKv.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>We are <span class="hashtag">#hiring!</span>
+
+Webshop Project Manager
+
+<a class="link" data-action="View" data-id="95013810" data-href="https://t.co/5qflYQ65vb" data-original-title="" title="">fairphone.com/join-the-team/…</a>
+<span class="hashtag">#WeAreFairphone</span> <span class="hashtag">#Job</span> <span class="hashtag">#Amsterdam</span> <a class="link" data-action="View" data-id="95013810" data-href="https://t.co/1SngptEuXH" data-original-title="" title="">https://t.co/1SngptEuXH</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95013810" data-href="https://twitter.com/Fairphone/status/685062399066566656" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T11:36:18.000Z">a day ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95013810" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95013810" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95013810" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95013811" data-feed-id="20441" class="twine-item data media-type-2 media-source-Twitter image-count-1 layout-full layout-full" style="position: absolute; left: 0px; top: 2378px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95013811" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95013811" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://pbs.twimg.com/profile_images/623202024067342336/muzqC8gB_normal.jpg" style="display: block;"><div class="fullname">Kitchen Impossible</div><div class="name">@Kit_Impossible</div></div></div><div class="picture"><a data-id="95013811" data-action="View" data-original-title="" title=""><div style="padding-bottom:133.10546875%" class=" img-wrapper"><img class="image-has-dimensions" data-id="95013811" data-manage-metrics="true" height="1363" width="1024" data-hide-tile-if-broken="true" src="https://pbs.twimg.com/media/CYHSGpuWsAErS3u.jpg:large" style="display: block;"></div></a></div><div class="twine-description "><p>One of the first 17,418
+<span class="hashtag">#WeAreFairphone</span>
+very excited <a class="link" data-action="View" data-id="95013811" data-href="https://t.co/4dzeLy2tjw" data-original-title="" title="">https://t.co/4dzeLy2tjw</a></p></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95013811" data-href="https://twitter.com/Kit_Impossible/status/685059649419276288" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T11:25:22.000Z">a day ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95013811" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95013811" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95013811" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div><div data-id="95013813" data-feed-id="20441" class="twine-item data media-type-1 media-source-Twitter image-count-0 layout-full layout-full" style="position: absolute; left: 552px; top: 2497px;"><div class="twine-item-border"><div class="badge-ribbon logo-wrapper twitter"><a data-id="95013813" data-href="http://twitter.com" data-action="View" data-original-title="" title=""><i class="fa fa-twitter"></i></a></div><div class="content"><div data-id="95013813" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png" style="display: block;"><div class="fullname">Jörn Woudboer</div><div class="name">@Woudyman</div></div></div><div class="twine-description "><p><span class="username">@RalfWillkommen</span> <span class="username">@fieddie</span> Vielleicht ein deutsches Problem? <span class="hashtag">#wearefairphone</span></p></div><div class="related media-type-1"><div data-id="95013812" data-parent-id="95013813" data-relation="child" data-action="Profile" class="row byline"><div class="col-xs-12"><img class="" data-hide-img-if-broken="true" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png" style="display: block;"><span class="fullname">Jörn Woudboer</span><br><span class="name">@Woudyman</span></div></div><div data-id="95013812" class="related-content"><div class="twine-description small"><p><span class="username">@RalfWillkommen</span> <span class="username">@fieddie</span>  same here and I was number 6000 something... :(</p></div></div></div></div><div class="when"><i class="fa fa-twitter"></i> <a data-action="View" data-id="95013813" data-href="https://twitter.com/Woudyman/status/685053472107053056" data-original-title="" title="">Posted <abbr class="timeago" title="2016-01-07T11:00:50.000Z">a day ago</abbr></a></div><div class="row footer"><div class="col-xs-12"><a title="" data-action="Tweet" data-id="95013813" data-original-title="Reply to Tweet"><i class="fa fa-reply"></i></a><a title="" data-action="Retweet" data-id="95013813" data-original-title="Retweet this Post"><i class="fa fa-retweet"></i></a><a title="" data-action="Favorite" data-id="95013813" data-original-title="Favorite Post on Twitter"><i class="fa fa-star"></i></a></div></div></div></div></div>
+				<!-- end: items -->
+
+
+				<div class="row" id="twine-end" style="display:none;">
+					<div class="col-sm-12">
+						<div class="alert-pad">
+							<a onclick="Twine.ScrollToTop();"><i class="fa fa-arrow-circle-o-up"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- progress spinner start -->
+				<div class="row hide" id="twine-progress">
+					<span id="loading-phrase">loading</span> <span id="loading-from" class="hide">more from TwineSocial</span>
+					<div class="spinner">
+						<div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div>
+					</div>
+				</div>
+				<!-- progress spinner end -->
+
+				
+				<div class="row" id="twine-empty" style="display:none;">
+				  <div class="alert padding">
+					<h3 class="center">No posts found.</h3>
+				  </div>
+				</div>
+
+				<!-- holder for tiles in the process of getting rendered -->
+				<div id="wall-preload"></div>
+
+			</div>
+
+		</div> <!--end: Twine Parent Container-->
+
+		<!-- modal background start -->
+		<div id="twine-modal-background" style="display: none;"></div>
+		<!-- modal background end -->
+
+		<!-- modal editor start -->
+		<div id="twine-modal-editor" style="display: none;">
+							<div id="twine-close">✕</div>
+						<iframe id="twine-modal-editor-content"></iframe>
+		</div>
+		<!-- modal editor end -->
+
+		<!-- modal creator start -->
+		<div id="twine-modal-creator">
+							<div id="twine-close" onclick="TwineSDK.HideModals();"></div>
+						<iframe id="twine-modal-creator-content"></iframe>
+		</div>
+		<!-- modal creator end -->
+
+		<!-- modal prompt start -->
+		<div id="twine-modal-prompt" class="lightbox" style="display: none;">
+			<div id="twine-close" onclick="Twine.HideModals();"></div>
+			<div id="prompt-inner">
+			</div>
+		</div>
+		<!-- modal prompt end -->
+
+		<!-- modal editor start -->
+		<div id="twine-toolbar" class="hide">
+			<div id="twine-toolbar-launcher"><img src="//apps-cdn.twinesocial.com/images/admin-twine-logo-sm.png"></div>
+			<div id="twine-toolbar-content-frame">
+				<iframe id="twine-toolbar-content"></iframe>
+			</div>
+		</div>
+		<!-- modal editor end -->
+
+		<!-- modal player start -->
+		<div id="twine-modal-player"></div>
+		<!-- modal player end -->
+
+
+		<script type="text/javascript">
+
+		<!-- start: Twine Hosted Page Tracking Script -->
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		<!-- report GA data into TwineSocial -->
+		ga('create', 'UA-42305215-2', 'auto');
+			
+			<!-- end: Twine Hosted Page Tracking Script -->
+
+							jQuery(document).ready(function() {
+					// if we are handling infinite scroll, then monitor the page length function, adding more tiles if necessary
+					if (Twine.settings.infinitescroll==false || Twine.settings.embedded==false) {						
+						jQuery(window).scroll(function () {
+							// if we are near the bottom of the page, get more items
+						   if (Twine.settings.isLoading==0 && $(window).scrollTop() >= $(document).height() - $(window).height() - 200) {
+							   	if (typeof Twine.theme.scrollLoadOff =='undefined' && $('#wall .twine-item').length > 0) {
+									Twine.GetContent();
+								}
+						   }
+						});
+					}
+
+					// for an initial load, add in the initial tiles.
+					Twine.settings.isLoading=0;
+
+				});
+			
+		</script>
+	
+			<div class="bullet-proof-hide">
+				<script id="live-post-text-tile" class="bullet-proof-hide" type="text/x-handlebars-template">
+  <div class="row full-height">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-8">
+      <div class="slider-body text-center vertical-center">
+        <!-- <div class="row"> -->
+          <div class="col-xs-12">
+            <div class="text-wrapper">
+              {{#if profileImageHTML}}
+                <div class="profile-wrapper">
+                  {{{profileImageHTML}}}
+                </div>
+              {{/if}}
+
+              {{#if from_full_name}}
+                <div class="fullname">{{{from_full_name}}}</div>
+              {{/if}}
+
+              {{#if from_user_name}}
+                <div class="name">{{{from_user_name}}}</div>
+              {{/if}}
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <div class="text-wrapper">z
+              {{#if title}}
+                <h2>{{title}}</h2>
+              {{/if}}
+
+              {{#if decodedDescription}}
+                <p class="twine-description">{{{decodedDescription}}}</p>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-2"></div>
+  </div>
+</script>
+
+<script id="live-post-image-tile" class="bullet-proof-hide" type="text/x-handlebars-template">
+<div>
+  <div class="row full-height">
+      <!-- <div class="col-xs-2"></div> -->
+      <div class="col-xs-12">
+        <div class="slider-body text-center">
+          <div class="row vertical-center">
+            <div class="col-xs-6">
+              <div class="text-wrapper">
+                {{#if profileImageHTML}}
+                  <div class="profile-wrapper">
+                    {{{profileImageHTML}}}
+                  </div>
+                {{/if}}
+
+                {{#if from_full_name}}
+                  <div class="fullname">{{{from_full_name}}}</div>
+                {{/if}}
+
+                {{#if from_user_name}}
+                  <div class="name">{{{from_user_name}}}</div>
+                {{/if}}
+
+                {{#if title}}
+                  <h2>{{title}}</h2>
+                {{/if}}
+
+                {{#if decodedDescription}}
+                  <p class="twine-description">{{{truncate decodedDescription 600}}}</p>
+                {{/if}}
+              </div>
+            </div>
+
+          <div class="col-xs-6">
+            <!--{{#if mainImageHTML}}
+              <div class="vertical-center">
+                {{{mainImageHTML}}}
+              </div>
+            {{/if}}-->
+
+            {{#if images.0.url}}
+              <div class="lazy-bg">
+                <img src="{{images.0.url}}"/>
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-xs-2"></div> -->
+  </div>
+</div>
+</script>
+		</div>
+	
+	
+	
+
+<script src="//js.pusher.com/2.2/pusher.min.js"></script>
+<span style="height: 20px; width: 40px; position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAoCAYAAABpYH0BAAAHjElEQVR4Ae1bBXAbvRLO0GNmpv+VmflnZmZmZi4zMzMzM4Y58ZwTz4SZnZzpjLWzBa38Zs8aO332pdy7ma9JPmml1XfSaqXacfgYjRIcPrwP9u7dqSMKHDq0D5hmiLi4vDwJEH6/H86dOxcFdAQCfq5ZQUEexOHM8/l8cPbsWR0xADVD7eJwSuqCaANqpwt4MQTU9uiPLuDFErC1tVUDdFw0AV0l5VA1dS4Y7n4SUv7VD+J/0QHif3YT/1168Dmonb8MfBbr9StgIBDQBE9DE+Q//zYX69QP/3NBJP6pO1TPXgwBvx9trwu0S0BblgFSOwwigRJ+1xnyn3wVqqfNh6aVG6Fu7mIofudzSL1poCCk6aX3wO/1XV8C4ikkFjgKSiD5b71IlIIX3oHTbDayR5ji/GEdVU+dK8zS0m8mYDvXPLQJyDLw7CH3khjlTAx8LmSDYtbOXEg28b/sAPb8Qir3ebxg3ncY5MTUiz5Ir80BTTv2UX+R4KyownraBcRjSbRo3LaHhDDc8Ri0BgKcd5lboOTL0ZDPZqOclBpmh/XSuwwj2+IPv+a81+2B3DsfI75+/VbkLwpczTKkdx+B7fKNzSblCeVl42dA8j/78PLaZWtjbl+TgManXqPBWk4mBXmvF7KH3U98CnOKCRNmW/zul1QnvdfNnDMfPkEcomzklIsmYOWMBULbTdv3Ik8+J/+9N5UpRSXaBfR6vVEj5d99sUMeA/3/4xp3H0ROgFJbF2ZbMW66uun8thPnbAaJ4mMKG5CztAL5i4LGDduov6w+t4FPUahMzjJQWep/B6EgMbdPAno8nqhx6sfBTrMH3k1c6feTwlIW1kGYbdk3E9U4+PMOyPF69uQMqF+8Gk43y2R3MYBxSt5zCJpWb4ZWl1AmzM6CF9/V0r42AZP/3CP4RgfcRVzozEIYH3kxom3Bqx+qb/3f/ThXtXAlSI+9xPAytJxIpLp2FtilJ14F6dGXoPCT78AqmcDI4mtqx8Ec+S+/D0pdwwV9Lfl6QrDtJ14BW1Ep5/JZGpVz+6NsJfUnX9I6D+WcxMKTJgHdbnfUyBn+QHAJ/rojOOobOGfef0QQsHbBioi2Wf3vFDYgxqHzxDEBqW7l3MWq2DcNYEu+c1iYMDz0XJt+Kk1mnOU0251sk7MyEck+AnKDPkULbQJWz1LTEdNbn3FOzsolDpe4s7I6zM5aXAanfqrmgpVs1lpNheqy/2M38DjV+sYnXxUHd/ODUP7VeBbLbicOd9a2/KzbskuwRc7O/Cr7gmUKT71OZXjcLPt8JIclMUWbgE6nM2p4HQ4ekPlO2n045yoox2Nct+HYeJid6d0vQuLff3nuVTl/GXHSwy+o9RVFSNSL3vqMck1bcoa6Ef2+c5t+Fryj9lf+7STOoV/YRtWUuVRW+PrHyCFwWcakBQmoKEpM8LHlYHrmDXSM/y09qaY2mBo4mmWhfgNb4vE/+68QtNEBSZ1lbGYvovpNKapIyX/thUkuldWG7KzZg+9p08eMPreGhgahzHDvU2reuW4LcpqgWUAcfCCYQOPfbBn0FWMTu4FpZstaLiyCEpasJvymkxrP/jOAX0IoDgfmi8RbDRK1XzZ5NvGm594W+i54T51ZpZ+PiuifpbwCQwmd0d0O9QU4rFZI/EMXCjeYbrVbQIfDoRnNBkm4UMD8LkKApnzLXVwanGWpmULizV4KtRk6Q+qWrRX6ywiGDw7zgWMRfapavl59mXc/IZQ1HDlJZRhP0RetY78oAlYuWK7GMTZw64nE0CMbxaoSFgNPt8gkVPm0+VRufPwVag9nT8KvO1CZrbhMLauqoY0Iz9NOiyWiT/mvfED2FSOnCGWYCtFxkvmEXLsFtNvtmmF87i11Z500BwXCKxlQciSQ9x0BR1oWtHr4sQ47JTvp6deF2xniX3qPePYiBJvaXQeoLKPXzW36lNlX3anrWMwkexaLQzOBavbyeRl7EebMnJjHTgJarVbNSOs0hBySU7OQQ1CsxJ+R7LIG3k12Eku8G1nMzHv9I+IQhW98LNhUhOSGiSyhrz8eDzVMVF6uAlMiqpfDLipq2Xm7YulqtBETfnYZ3HAqCQwsiY9ns95skGIae7sFtDQ20hvFkwVuDNHaSvc/g3YC8EysxlC+Qwo2dZt2Ih+G8oUrhXrGR1+KWA83Ddq4RODlL852bQJaLBZNMEt56i0KW4ax2MrH4zE2CsvVcugEJP6e75Bs5+4ItqoawUaxWjEpFs7TRW9+CoosC/W8DCUffsN2224hu39/MG/cCbb4FDyrE48XGHhXiSEm1vG3W8Bmo4kuD5Sa2phscWkHZAvfdFySCeMmcvgf1vj5E/yJbznMLoCpU7YB7EyIQIscceBoh5cSGHudBiO4C0rwZpxCSiuDkmXAfpHHBBvttAsoy7I2VFUHA/WC5dhgrPZoQ5tEDHZYH+3+b59YjnVR0Eg89asR2gVUHaFTBfHXPy6egAhcQtrtdQERuoAtLS06NEAX8GIJaDabdWgAFxA/ptrQUBejsQ7UDLXjHzLPzExjREOUxjpQK9SsoMAIcewf/jWHQ4e0fM1B/5rDebD10oZZukwlAAAAAElFTkSuQmCC&quot;); background-color: transparent; background-size: 40px 20px;"></span></body></html>
