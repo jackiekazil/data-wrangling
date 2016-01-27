@@ -16,7 +16,7 @@ def oauth_req(url, key, secret, http_method="GET", post_body="",
     return content
 
 
-url = 'https://api.twitter.com/1.1/search/tweets.json?q=%23popeindc'
+url = 'https://api.twitter.com/1.1/search/tweets.json?q=%23childlabor'
 data = oauth_req(url, TOKEN_KEY, TOKEN_SECRET)
 
 with open("../../data/chp13/hashchildlabor.json", "w") as data_file:

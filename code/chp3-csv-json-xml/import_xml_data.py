@@ -1,10 +1,12 @@
 from xml.etree import ElementTree as ET
 
-tree = ET.parse('data-text.xml')
+tree = ET.parse('../../data/chp3/data-text.xml')
 root = tree.getroot()
 print root
 
 data = root.find('Data')
+
+all_data = []
 
 for observation in data:
     record = {}
@@ -20,4 +22,6 @@ for observation in data:
             rec_value = item.attrib['Code']
 
         record[rec_key] = rec_value
-    #print record
+    all_data.append(record)
+
+print all_data
