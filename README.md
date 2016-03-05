@@ -12,7 +12,7 @@ We have not included every code sample you've found in the book, but we have inc
 
 We've also included some of the data investigation and IPython exploration used to first determine what to explore with the book. If you have any questions about the code you see in the book or the exploration conclusions, please reach out. Most of the exploration was performed using an older version of some of the libraries, so it might not work without modification.
 
-#### Scraping Datia Folders
+#### Scraping Data Folders
 
 In case the web pages the book uses change significantly, we've included copies of the web pages as they are now. You can use them and tell the scraping library to access them via a File URI (normally `file://file_name.html`).
 
