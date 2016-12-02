@@ -16,6 +16,19 @@ We've also included some of the data investigation and IPython exploration used 
 
 In case the web pages the book uses change significantly, we've included copies of the web pages as they are now. You can use them and tell the scraping library to access them via a File URI (normally `file://file_name.html`).
 
+ * Note: this has already occured with the Fairphone page. Please see `data/chp11/fairphone.html` to see the old page as it was in the book
+
+
+### Firefox Issues
+
+Depending on your version of Firefox and Selenium, you may run into JavaScript errors. Here are some fixes:
+ * Use an older version of Firefox
+ * Upgrade Selenium to >=3.0.2 and download the [geckodriver](https://github.com/mozilla/geckodriver/releases). Make sure the geckodriver is findable by your PATH variable. You can do this by adding this line to your `.bashrc` or `.bash_profile`. (Wondering what these are? Please read the Appendix C on learning the command line).
+ * Use [PhantomJS](http://phantomjs.org/) with Selenium (change your browser line to `webdriver.PhantomJS('path/to/your/phantomjs/installation')`)
+ * Use Chrome, InternetExplorer or any other [supported browser](http://www.seleniumhq.org/about/platforms.jsp)
+
+Feel free to reach out if you have any questions!
+
 ### Corrections?
 
 If you find any issues in these code examples, feel free to submit an Issue or Pull Request. We appreciate your input!
