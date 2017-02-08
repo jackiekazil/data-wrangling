@@ -13,6 +13,6 @@ for data_dict in data_rows:
         for header_dict in header_rows:
             if dkey in header_dict.values():
                 new_row[header_dict.get('Label')] = dval
-                new_rows.append(new_row)
+    new_rows.append(new_row)
 
 print new_rows[0]
