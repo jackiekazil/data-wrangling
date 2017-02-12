@@ -33,7 +33,7 @@ def get_clean_rows():
         for i, d in enumerate(row):
             if i not in skip_index:
                 new_row.append(d)
-            new_data.append(new_row)
+        new_data.append(new_row)
     return header_rows, new_data
 
 
