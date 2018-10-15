@@ -4,7 +4,7 @@ Welcome to the code repository for [Data Wrangling with Python](http://shop.orei
 
 ### Code Structure
 
-We've kept all of the code samples in folders separated by chapter and the data in a similar fashion. You'll likely want to 'undo' this work. It will be far more useful for you to have the data all in one folder so you can easily import and use. Remember, storing data in a repository is usually not a good idea; we've done it here so you can replicate the work you see in the book.
+We've kept all of the code samples in folders separated by chapters and the data in a similar fashion. You'll likely want to 'undo' this work. It will be far more useful for you to have the data all in one folder so you can easily import and use. Remember, storing data in a repository is usually not a good idea; we've done it here so you can replicate the work you see in the book.
 
 ### Code Examples
 
