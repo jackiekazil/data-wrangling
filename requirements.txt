@@ -69,7 +69,7 @@ pytimeparse==1.1.5
 pytz==2016.3
 pyzmq==15.1.0
 queuelib==1.4.2
-requests==2.9.1
+requests==2.20.0
 requests-oauthlib==0.6.0
 selenium==2.53.5
 service-identity==14.0.0
