@@ -20,7 +20,7 @@ cairocffi==0.7.2
 certifi==2015.11.20.1
 cffi==1.4.2
 characteristic==14.3.0
-cryptography==1.2
+cryptography==3.2
 cssselect==0.9.1
 dataset==0.6.1
 decorator==4.0.6
