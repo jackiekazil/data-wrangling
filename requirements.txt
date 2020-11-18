@@ -44,7 +44,7 @@ mistune==0.7.1
 nbconvert==4.1.0
 nbformat==4.0.1
 normality==0.2.4
-notebook==4.0.6
+notebook==6.1.5
 numpy==1.10.4
 oauth==1.0.1
 oauth2==1.9.0.post1
