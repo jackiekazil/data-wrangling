@@ -16,7 +16,7 @@ We've also included some of the data investigation and IPython exploration used 
 
 In case the web pages the book uses change significantly, we've included copies of the web pages as they are now. You can use them and tell the scraping library to access them via a File URI (normally `file://file_name.html`).
 
- * Note: this has already occured with the Fairphone page. Please see `data/chp11/fairphone.html` to see the old page as it was in the book
+ * Note: this has already occurred with the Fairphone page. Please see `data/chp11/fairphone.html` to see the old page as it was in the book
 
 
 ### Firefox Issues
