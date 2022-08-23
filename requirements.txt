@@ -41,7 +41,7 @@ jupyter-client==4.1.1
 jupyter-core==4.0.6
 lxml==3.5.0
 mistune==0.7.1
-nbconvert==4.1.0
+nbconvert==6.5.1
 nbformat==4.0.1
 normality==0.2.4
 notebook==4.0.6
