@@ -1,7 +1,7 @@
 Babel==2.3.3
 CairoSVG==1.0.19
 Jinja2==2.8
-Mako==1.0.3
+Mako==1.2.2
 MarkupSafe==0.23
 PyYAML==3.11
 Pygments==2.0.2
